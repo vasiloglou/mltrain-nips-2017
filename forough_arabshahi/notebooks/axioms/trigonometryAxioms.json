@@ -1,0 +1,494 @@
+[
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sin(\\theta) + (\\cos(\\theta))^{2} + \\sin(\\pi) + \\frac{1}{2} - \\frac{1}{2}\\cos(2*\\theta) +  \\sec(\\theta) * \\csc(\\theta) = \\frac{1}{\\csc(\\theta)} + \\tan(\\theta) - \\cot(\\theta) + \\log(\\asin(\\theta)) - \\exp(\\acos(\\theta)) + \\asec(\\theta) + \\acsc(\\theta) + \\sqrt{\\atan(\\theta)} + \\acot(\\theta) + 1 + \\sinh(\\theta) + \\cosh(\\theta) - \\coth(\\theta) + \\tanh(\\theta) + \\csch(\\theta) + \\sech(\\theta) + \\acsch(\\theta) + \\asech(\\theta) + \\asinh(\\theta) + \\acosh(\\theta) + \\acoth(\\theta) + \\atanh(\\theta) + \\sqrt{\\theta}",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sin\\theta = \\frac{1}{\\csc\\theta}",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\csc\\theta = \\frac{1}{\\sin\\theta}",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cos\\theta = \\frac{1}{\\sec\\theta}",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sec\\theta = \\frac{1}{\\cos\\theta}",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\tan\\theta = \\frac{1}{\\cot\\theta}",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cot\\theta = \\frac{1}{\\tan\\theta}",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sin^{2}\\theta + \\cos^{2}\\theta = 1",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\tan^{2}\\theta + 1 = \\sec^{2}\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sin(-\\theta) = -\\sin\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\csc(-\\theta) = -\\csc\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cos(-\\theta) = \\cos\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sec(-\\theta) = \\sec\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\tan(-\\theta) = -\\tan\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cot(-\\theta) = -\\cot\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sin\\theta = \\cos(\\frac{\\pi}{2} - \\theta)",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cos\\theta = \\sin(\\frac{\\pi}{2} - \\theta)",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sec\\theta = \\csc(\\frac{\\pi}{2} - \\theta)",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\csc\\theta = \\sec(\\frac{\\pi}{2} - \\theta)",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\tan\\theta = \\cot(\\frac{\\pi}{2} - \\theta)",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cot\\theta = \\tan(\\frac{\\pi}{2} - \\theta)",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<L S/S POS POS Overall S/S>) (<T S[dcl] 1 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS diagram N>) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/(S[b]\\NP) POS POS can (S[dcl]\\NP)/(S[b]\\NP)>) (<T S[b]\\NP 0 2> (<L (S[b]\\NP)/(S[pss]\\NP) POS POS be (S[b]\\NP)/(S[pss]\\NP)>) (<T S[pss]\\NP 0 2> (<L (S[pss]\\NP)/(S[to]\\NP) POS POS used (S[pss]\\NP)/(S[to]\\NP)>) (<T S[to]\\NP 0 2> (<L (S[to]\\NP)/(S[b]\\NP) POS POS to (S[to]\\NP)/(S[b]\\NP)>) (<T S[b]\\NP 0 2> (<L (S[b]\\NP)/NP POS POS show (S[b]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 1 2> (<L conj POS POS and conj>) (<T NP 0 2> (<T NP 0 1> (<L N POS POS cosine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 1> (<T N 1 2> (<L N/N POS POS sum N/N>) (<L N POS POS identities N>) ) ) ) ) ) ) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula101## NP>) \n(<L NP POS POS ://formula102## NP>) \n(<T NP 0 1> (<T N 0 2> (<L N/S[dcl] POS POS because N/S[dcl]>) (<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<T N 1 2> (<L N/N POS POS opposite N/N>) (<L N POS POS sides N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS rectangle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/(S[adj]\\NP) POS POS are (S[dcl]\\NP)/(S[adj]\\NP)>) (<L S[adj]\\NP POS POS equal S[adj]\\NP>) ) ) ) ) \n",
+        "equation": "\\sin(\\alpha + \\beta) = \\sin \\alpha \\cos \\beta + \\cos \\alpha \\sin \\beta",
+        "sentence": "Overall the diagram can be used to show the sine and cosine of sum identities\n://formula101##\n://formula102##\nbecause the opposite sides of the rectangle are equal\n",
+        "variables": "\\beta , \\alpha"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<L S/S POS POS Overall S/S>) (<T S[dcl] 1 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS diagram N>) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/(S[b]\\NP) POS POS can (S[dcl]\\NP)/(S[b]\\NP)>) (<T S[b]\\NP 0 2> (<L (S[b]\\NP)/(S[pss]\\NP) POS POS be (S[b]\\NP)/(S[pss]\\NP)>) (<T S[pss]\\NP 0 2> (<L (S[pss]\\NP)/(S[to]\\NP) POS POS used (S[pss]\\NP)/(S[to]\\NP)>) (<T S[to]\\NP 0 2> (<L (S[to]\\NP)/(S[b]\\NP) POS POS to (S[to]\\NP)/(S[b]\\NP)>) (<T S[b]\\NP 0 2> (<L (S[b]\\NP)/NP POS POS show (S[b]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 1 2> (<L conj POS POS and conj>) (<T NP 0 2> (<T NP 0 1> (<L N POS POS cosine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 1> (<T N 1 2> (<L N/N POS POS sum N/N>) (<L N POS POS identities N>) ) ) ) ) ) ) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula101## NP>) \n(<L NP POS POS ://formula102## NP>) \n(<T NP 0 1> (<T N 0 2> (<L N/S[dcl] POS POS because N/S[dcl]>) (<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<T N 1 2> (<L N/N POS POS opposite N/N>) (<L N POS POS sides N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS rectangle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/(S[adj]\\NP) POS POS are (S[dcl]\\NP)/(S[adj]\\NP)>) (<L S[adj]\\NP POS POS equal S[adj]\\NP>) ) ) ) ) \n",
+        "equation": "\\sin(\\alpha - \\beta) = \\sin \\alpha \\cos \\beta - \\cos \\alpha \\sin \\beta",
+        "sentence": "Overall the diagram can be used to show the sine and cosine of sum identities\n://formula101##\n://formula102##\nbecause the opposite sides of the rectangle are equal\n",
+        "variables": "\\beta , \\alpha"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<L S/S POS POS Overall S/S>) (<T S[dcl] 1 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS diagram N>) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/(S[b]\\NP) POS POS can (S[dcl]\\NP)/(S[b]\\NP)>) (<T S[b]\\NP 0 2> (<L (S[b]\\NP)/(S[pss]\\NP) POS POS be (S[b]\\NP)/(S[pss]\\NP)>) (<T S[pss]\\NP 0 2> (<L (S[pss]\\NP)/(S[to]\\NP) POS POS used (S[pss]\\NP)/(S[to]\\NP)>) (<T S[to]\\NP 0 2> (<L (S[to]\\NP)/(S[b]\\NP) POS POS to (S[to]\\NP)/(S[b]\\NP)>) (<T S[b]\\NP 0 2> (<L (S[b]\\NP)/NP POS POS show (S[b]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 1 2> (<L conj POS POS and conj>) (<T NP 0 2> (<T NP 0 1> (<L N POS POS cosine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 1> (<T N 1 2> (<L N/N POS POS sum N/N>) (<L N POS POS identities N>) ) ) ) ) ) ) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula101## NP>) \n(<L NP POS POS ://formula102## NP>) \n(<T NP 0 1> (<T N 0 2> (<L N/S[dcl] POS POS because N/S[dcl]>) (<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<T N 1 2> (<L N/N POS POS opposite N/N>) (<L N POS POS sides N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS rectangle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/(S[adj]\\NP) POS POS are (S[dcl]\\NP)/(S[adj]\\NP)>) (<L S[adj]\\NP POS POS equal S[adj]\\NP>) ) ) ) ) \n",
+        "equation": "\\cos(\\alpha + \\beta) = \\cos \\alpha \\cos \\beta - \\sin \\alpha \\sin \\beta",
+        "sentence": "Overall the diagram can be used to show the sine and cosine of sum identities\n://formula101##\n://formula102##\nbecause the opposite sides of the rectangle are equal\n",
+        "variables": "\\beta , \\alpha"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<L S/S POS POS Overall S/S>) (<T S[dcl] 1 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS diagram N>) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/(S[b]\\NP) POS POS can (S[dcl]\\NP)/(S[b]\\NP)>) (<T S[b]\\NP 0 2> (<L (S[b]\\NP)/(S[pss]\\NP) POS POS be (S[b]\\NP)/(S[pss]\\NP)>) (<T S[pss]\\NP 0 2> (<L (S[pss]\\NP)/(S[to]\\NP) POS POS used (S[pss]\\NP)/(S[to]\\NP)>) (<T S[to]\\NP 0 2> (<L (S[to]\\NP)/(S[b]\\NP) POS POS to (S[to]\\NP)/(S[b]\\NP)>) (<T S[b]\\NP 0 2> (<L (S[b]\\NP)/NP POS POS show (S[b]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 1 2> (<L conj POS POS and conj>) (<T NP 0 2> (<T NP 0 1> (<L N POS POS cosine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 1> (<T N 1 2> (<L N/N POS POS sum N/N>) (<L N POS POS identities N>) ) ) ) ) ) ) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula101## NP>) \n(<L NP POS POS ://formula102## NP>) \n(<T NP 0 1> (<T N 0 2> (<L N/S[dcl] POS POS because N/S[dcl]>) (<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<T N 1 2> (<L N/N POS POS opposite N/N>) (<L N POS POS sides N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS rectangle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/(S[adj]\\NP) POS POS are (S[dcl]\\NP)/(S[adj]\\NP)>) (<L S[adj]\\NP POS POS equal S[adj]\\NP>) ) ) ) ) \n",
+        "equation": "\\cos(\\alpha - \\beta) = \\cos \\alpha \\cos \\beta + \\sin \\alpha \\sin \\beta",
+        "sentence": "Overall the diagram can be used to show the sine and cosine of sum identities\n://formula101##\n://formula102##\nbecause the opposite sides of the rectangle are equal\n",
+        "variables": "\\beta , \\alpha"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<L S/S POS POS Overall S/S>) (<T S[dcl] 1 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS diagram N>) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/(S[b]\\NP) POS POS can (S[dcl]\\NP)/(S[b]\\NP)>) (<T S[b]\\NP 0 2> (<L (S[b]\\NP)/(S[pss]\\NP) POS POS be (S[b]\\NP)/(S[pss]\\NP)>) (<T S[pss]\\NP 0 2> (<L (S[pss]\\NP)/(S[to]\\NP) POS POS used (S[pss]\\NP)/(S[to]\\NP)>) (<T S[to]\\NP 0 2> (<L (S[to]\\NP)/(S[b]\\NP) POS POS to (S[to]\\NP)/(S[b]\\NP)>) (<T S[b]\\NP 0 2> (<L (S[b]\\NP)/NP POS POS show (S[b]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 1 2> (<L conj POS POS and conj>) (<T NP 0 2> (<T NP 0 1> (<L N POS POS cosine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 1> (<T N 1 2> (<L N/N POS POS sum N/N>) (<L N POS POS identities N>) ) ) ) ) ) ) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula101## NP>) \n(<L NP POS POS ://formula102## NP>) \n(<T NP 0 1> (<T N 0 2> (<L N/S[dcl] POS POS because N/S[dcl]>) (<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<T N 1 2> (<L N/N POS POS opposite N/N>) (<L N POS POS sides N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS rectangle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/(S[adj]\\NP) POS POS are (S[dcl]\\NP)/(S[adj]\\NP)>) (<L S[adj]\\NP POS POS equal S[adj]\\NP>) ) ) ) ) \n",
+        "equation": "\\tan(\\alpha + \\beta) = \\frac{\\tan\\alpha + \\tan\\beta}{1 - \\tan(\\alpha) \\times \\tan(\\beta)}",
+        "sentence": "Overall the diagram can be used to show the sine and cosine of sum identities\n://formula101##\n://formula102##\nbecause the opposite sides of the rectangle are equal\n",
+        "variables": "\\beta , \\alpha"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<L S/S POS POS Overall S/S>) (<T S[dcl] 1 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS diagram N>) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/(S[b]\\NP) POS POS can (S[dcl]\\NP)/(S[b]\\NP)>) (<T S[b]\\NP 0 2> (<L (S[b]\\NP)/(S[pss]\\NP) POS POS be (S[b]\\NP)/(S[pss]\\NP)>) (<T S[pss]\\NP 0 2> (<L (S[pss]\\NP)/(S[to]\\NP) POS POS used (S[pss]\\NP)/(S[to]\\NP)>) (<T S[to]\\NP 0 2> (<L (S[to]\\NP)/(S[b]\\NP) POS POS to (S[to]\\NP)/(S[b]\\NP)>) (<T S[b]\\NP 0 2> (<L (S[b]\\NP)/NP POS POS show (S[b]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 1 2> (<L conj POS POS and conj>) (<T NP 0 2> (<T NP 0 1> (<L N POS POS cosine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 1> (<T N 1 2> (<L N/N POS POS sum N/N>) (<L N POS POS identities N>) ) ) ) ) ) ) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula101## NP>) \n(<L NP POS POS ://formula102## NP>) \n(<T NP 0 1> (<T N 0 2> (<L N/S[dcl] POS POS because N/S[dcl]>) (<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<T N 1 2> (<L N/N POS POS opposite N/N>) (<L N POS POS sides N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS rectangle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/(S[adj]\\NP) POS POS are (S[dcl]\\NP)/(S[adj]\\NP)>) (<L S[adj]\\NP POS POS equal S[adj]\\NP>) ) ) ) ) \n",
+        "equation": "\\tan(\\alpha - \\beta) = \\frac{\\tan\\alpha - \\tan\\beta}{1 + \\tan(\\alpha) \\times \\tan(\\beta)}",
+        "sentence": "Overall the diagram can be used to show the sine and cosine of sum identities\n://formula101##\n://formula102##\nbecause the opposite sides of the rectangle are equal\n",
+        "variables": "\\beta , \\alpha"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<L S/S POS POS Overall S/S>) (<T S[dcl] 1 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS diagram N>) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/(S[b]\\NP) POS POS can (S[dcl]\\NP)/(S[b]\\NP)>) (<T S[b]\\NP 0 2> (<L (S[b]\\NP)/(S[pss]\\NP) POS POS be (S[b]\\NP)/(S[pss]\\NP)>) (<T S[pss]\\NP 0 2> (<L (S[pss]\\NP)/(S[to]\\NP) POS POS used (S[pss]\\NP)/(S[to]\\NP)>) (<T S[to]\\NP 0 2> (<L (S[to]\\NP)/(S[b]\\NP) POS POS to (S[to]\\NP)/(S[b]\\NP)>) (<T S[b]\\NP 0 2> (<L (S[b]\\NP)/NP POS POS show (S[b]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 1 2> (<L conj POS POS and conj>) (<T NP 0 2> (<T NP 0 1> (<L N POS POS cosine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 1> (<T N 1 2> (<L N/N POS POS sum N/N>) (<L N POS POS identities N>) ) ) ) ) ) ) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula101## NP>) \n(<L NP POS POS ://formula102## NP>) \n(<T NP 0 1> (<T N 0 2> (<L N/S[dcl] POS POS because N/S[dcl]>) (<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<T N 1 2> (<L N/N POS POS opposite N/N>) (<L N POS POS sides N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS rectangle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/(S[adj]\\NP) POS POS are (S[dcl]\\NP)/(S[adj]\\NP)>) (<L S[adj]\\NP POS POS equal S[adj]\\NP>) ) ) ) ) \n",
+        "equation": "\\cot(\\alpha + \\beta) = \\frac{\\cot(\\alpha) \\times \\cot(\\beta) - 1}{\\cot\\alpha + \\cot\\beta}",
+        "sentence": "Overall the diagram can be used to show the sine and cosine of sum identities\n://formula101##\n://formula102##\nbecause the opposite sides of the rectangle are equal\n",
+        "variables": "\\beta , \\alpha"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sin(2\\theta) = 2\\sin(\\theta)\\cos(\\theta)",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cos(2\\theta) = \\cos^{2}(\\theta) - \\sin^{2}(\\theta)",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cos(2\\theta) = 1 - 2\\sin^{2}(\\theta)",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cos(2\\theta) = 2\\cos^{2}(\\theta) - 1",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cos(2\\theta) = \\frac{1-\\tan^{2}\\hteta}{1+\\tan^{2}\\theta}",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\tan(2\\theta) = \\frac{2\\tan\\theta}{1-\\tan^{2}\\theta}",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cot(2\\theta) = \\frac{\\cot^{2}\\theta - 1}{2\\cot\\theta}",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "2\\sin^{2}(\\theta) = 1 - \\cos(2\\theta)",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sin^{2}(\\theta) = \\frac{1}{2} - \\frac{1}{2}\\cos(2\\theta)",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "2\\cos^{2}(\\theta) = 1 + \\cos(2\\theta)",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cos^{2}(\\theta) = \\frac{1}{2} + \\frac{1}{2}\\cos(2\\theta)",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sin(\\theta) = \\sqrt{1-\\cos^{2}(\\theta)}",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sin(\\theta) = -\\sqrt{1-\\cos^{2}(\\theta)}",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cos(\\theta) = \\sqrt{1-\\sin^{2}(\\theta)}",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cos(\\theta) = -\\sqrt{1-\\sin^{2}(\\theta)}",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "1 + \\tan^{2}(\\theta) = \\sec^{2}\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "1 + \\cot^{2}(\\theta) = \\csc^{2}\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sin(\\frac{\\pi}{2} - \\theta) = \\cos\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cos(\\frac{\\pi}{2} - \\theta) = \\sin\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\tan(\\frac{\\pi}{2} - \\theta) = \\cot\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\csc(\\frac{\\pi}{2} - \\theta) = \\sec\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sec(\\frac{\\pi}{2} - \\theta) = \\csc\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cot(\\frac{\\pi}{2} - \\theta) = \\tan\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sin(\\pi - \\theta) = \\sin\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cos(\\pi - \\theta) = -\\cos\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\tan(\\pi - \\theta) = -\\tan\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\csc(\\pi - \\theta) = \\csc\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sec(\\pi - \\theta) = -\\sec\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cot(\\pi - \\theta) = -\\cot\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sin(\\theta + \\frac{\\pi}{2}) = \\cos\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cos(\\theta + \\frac{\\pi}{2}) = -\\sin\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\tan(\\theta + \\frac{\\pi}{2}) = -\\cot\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\csc(\\theta + \\frac{\\pi}{2}) = \\sec\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sec(\\theta + \\frac{\\pi}{2}) = -\\csc\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cot(\\theta + \\frac{\\pi}{2}) = -\\tan\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sin(\\theta + \\pi) = -\\sin\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cos(\\theta + \\pi) = -\\cos\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\tan(\\theta + \\pi) = \\tan\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\csc(\\theta + \\pi) = -\\csc\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sec(\\theta + \\pi) = -\\sec\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cot(\\theta + \\pi) = \\cot\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sin(\\theta + 2\\pi) = \\sin\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cos(\\theta + 2\\pi) = \\cos\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\tan(\\theta + 2\\pi) = \\tan\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\csc(\\theta + 2\\pi) = \\csc\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sec(\\theta + 2\\pi) = \\sec\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cot(\\theta + 2\\pi) = \\cot\\theta",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sin(3\\theta) = -\\sin^{3}(\\theta) + 3\\cos^{2}(\\theta)\\sin(\\theta)",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\sin(3\\theta) = -4\\sin^{3}(\\theta) + 3\\sin(\\theta)",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cos(3\\theta) = \\cos^{3}(\\theta) - 3\\sin^{2}(\\theta) \\cos(\\theta)",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cos(3\\theta) = 4\\cos^{3}(\\theta) - 3\\cos(\\theta)",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\tan(3\\theta) = \\frac{3\\tan\\theta - \\tan^{3}\\theta}{1 - 3\\tan^{2}(\\theta)}",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\cot(3\\theta) = \\frac{3\\cot\\theta - \\cot^{3}\\theta}{1 - 3\\cot^{2}(\\theta)}",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    },
+    {
+        "CCGparse": "(<T S[dcl] 1 2> (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS The NP[nb]/N>) (<T N 1 2> (<L N/N POS POS tangent N/N>) (<L N POS POS (//formula12##) N>) ) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS an NP[nb]/N>) (<L N POS POS angle N>) ) ) ) (<T S[dcl]\\NP 0 2> (<L (S[dcl]\\NP)/NP POS POS is (S[dcl]\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS ratio N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS of (NP\\NP)/NP>) (<T NP 0 2> (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS sine N>) ) (<T NP\\NP 0 2> (<L (NP\\NP)/NP POS POS to (NP\\NP)/NP>) (<T NP 0 2> (<L NP[nb]/N POS POS the NP[nb]/N>) (<L N POS POS cosine: N>) ) ) ) ) ) ) ) \n(<L NP POS POS ://formula13## NP>) \n",
+        "equation": "\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}.",
+        "sentence": "The tangent (//formula12##) of an angle is the ratio of the sine to the cosine:\n://formula13##\n",
+        "variables": "\\theta"
+    }
+]

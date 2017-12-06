@@ -1,0 +1,511 @@
+{
+  "nodes": [
+    {
+      "op": "null", 
+      "name": "Const_0.7_2", 
+      "inputs": []
+    }, 
+    {
+      "op": "Dropout", 
+      "name": "dropout57388", 
+      "attr": {"p": "0.0"}, 
+      "inputs": [[0, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "lstmTreeInpOut_Const_i2h_weight", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "lstmTreeInpOut_Const_i2h_bias", 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "lstmTreeInpOut_Const__2_i2h", 
+      "attr": {"num_hidden": "50"}, 
+      "inputs": [[1, 0, 0], [2, 0, 0], [3, 0, 0]]
+    }, 
+    {
+      "op": "Dropout", 
+      "name": "dropout57389", 
+      "attr": {"p": "0.0"}, 
+      "inputs": [[4, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "lstmTreeInpOut_Const__2_embed", 
+      "attr": {"act_type": "sigmoid"}, 
+      "inputs": [[5, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "lstmTreeInpOut_Pow_h2h_1_weight", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "lstmTreeInpOut_Pow_h2h_1_bias", 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "lstmTreeInpOut_Pow__1_h2h_1", 
+      "attr": {"num_hidden": "250"}, 
+      "inputs": [[6, 0, 0], [7, 0, 0], [8, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "Const_1/2_3", 
+      "inputs": []
+    }, 
+    {
+      "op": "Dropout", 
+      "name": "dropout57390", 
+      "attr": {"p": "0.0"}, 
+      "inputs": [[10, 0, 0]]
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "lstmTreeInpOut_Const__3_i2h", 
+      "attr": {"num_hidden": "50"}, 
+      "inputs": [[11, 0, 0], [2, 0, 0], [3, 0, 0]]
+    }, 
+    {
+      "op": "Dropout", 
+      "name": "dropout57391", 
+      "attr": {"p": "0.0"}, 
+      "inputs": [[12, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "lstmTreeInpOut_Const__3_embed", 
+      "attr": {"act_type": "sigmoid"}, 
+      "inputs": [[13, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "lstmTreeInpOut_Pow_h2h_2_weight", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "lstmTreeInpOut_Pow_h2h_2_bias", 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "lstmTreeInpOut_Pow__1_h2h_2", 
+      "attr": {"num_hidden": "250"}, 
+      "inputs": [[14, 0, 0], [15, 0, 0], [16, 0, 0]]
+    }, 
+    {
+      "op": "elemwise_add", 
+      "name": "_plus11486", 
+      "inputs": [[9, 0, 0], [17, 0, 0]]
+    }, 
+    {
+      "op": "Dropout", 
+      "name": "dropout57392", 
+      "attr": {"p": "0.0"}, 
+      "inputs": [[18, 0, 0]]
+    }, 
+    {
+      "op": "SliceChannel", 
+      "name": "lstmTreeInpOut_Pow__1_slice", 
+      "attr": {"num_outputs": "5"}, 
+      "inputs": [[19, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "lstmTreeInpOut_Pow__1_o", 
+      "attr": {"act_type": "sigmoid"}, 
+      "inputs": [[20, 4, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "lstmTreeInpOut_Pow__1_f1", 
+      "attr": {"act_type": "sigmoid"}, 
+      "inputs": [[20, 1, 0]]
+    }, 
+    {
+      "op": "_zeros", 
+      "name": "lstmTreeInpOut_Const__2_begin_memory", 
+      "attr": {
+        "dtype": "float32", 
+        "shape": "(0, 50)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "_mul", 
+      "name": "_mul44003", 
+      "inputs": [[22, 0, 0], [23, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "lstmTreeInpOut_Pow__1_f2", 
+      "attr": {"act_type": "sigmoid"}, 
+      "inputs": [[20, 2, 0]]
+    }, 
+    {
+      "op": "_zeros", 
+      "name": "lstmTreeInpOut_Const__3_begin_memory", 
+      "attr": {
+        "dtype": "float32", 
+        "shape": "(0, 50)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "_mul", 
+      "name": "_mul44004", 
+      "inputs": [[25, 0, 0], [26, 0, 0]]
+    }, 
+    {
+      "op": "elemwise_add", 
+      "name": "lstmTreeInpOut_Pow__1_for_mem", 
+      "inputs": [[24, 0, 0], [27, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "lstmTreeInpOut_Pow__1_i", 
+      "attr": {"act_type": "sigmoid"}, 
+      "inputs": [[20, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "lstmTreeInpOut_Pow__1_c", 
+      "attr": {"act_type": "tanh"}, 
+      "inputs": [[20, 3, 0]]
+    }, 
+    {
+      "op": "_mul", 
+      "name": "_mul44005", 
+      "inputs": [[29, 0, 0], [30, 0, 0]]
+    }, 
+    {
+      "op": "elemwise_add", 
+      "name": "lstmTreeInpOut_Pow__1_memory", 
+      "inputs": [[28, 0, 0], [31, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "activation13395", 
+      "attr": {"act_type": "tanh"}, 
+      "inputs": [[32, 0, 0]]
+    }, 
+    {
+      "op": "_mul", 
+      "name": "lstmTreeInpOut_Pow__1_state", 
+      "inputs": [[21, 0, 0], [33, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "Const_1_5", 
+      "inputs": []
+    }, 
+    {
+      "op": "Dropout", 
+      "name": "dropout57393", 
+      "attr": {"p": "0.0"}, 
+      "inputs": [[35, 0, 0]]
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "lstmTreeInpOut_Const__5_i2h", 
+      "attr": {"num_hidden": "50"}, 
+      "inputs": [[36, 0, 0], [2, 0, 0], [3, 0, 0]]
+    }, 
+    {
+      "op": "Dropout", 
+      "name": "dropout57394", 
+      "attr": {"p": "0.0"}, 
+      "inputs": [[37, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "lstmTreeInpOut_Const__5_embed", 
+      "attr": {"act_type": "sigmoid"}, 
+      "inputs": [[38, 0, 0]]
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "lstmTreeInpOut_Pow__4_h2h_1", 
+      "attr": {"num_hidden": "250"}, 
+      "inputs": [[39, 0, 0], [7, 0, 0], [8, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "Const_4_6", 
+      "inputs": []
+    }, 
+    {
+      "op": "Dropout", 
+      "name": "dropout57395", 
+      "attr": {"p": "0.0"}, 
+      "inputs": [[41, 0, 0]]
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "lstmTreeInpOut_Const__6_i2h", 
+      "attr": {"num_hidden": "50"}, 
+      "inputs": [[42, 0, 0], [2, 0, 0], [3, 0, 0]]
+    }, 
+    {
+      "op": "Dropout", 
+      "name": "dropout57396", 
+      "attr": {"p": "0.0"}, 
+      "inputs": [[43, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "lstmTreeInpOut_Const__6_embed", 
+      "attr": {"act_type": "sigmoid"}, 
+      "inputs": [[44, 0, 0]]
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "lstmTreeInpOut_Pow__4_h2h_2", 
+      "attr": {"num_hidden": "250"}, 
+      "inputs": [[45, 0, 0], [15, 0, 0], [16, 0, 0]]
+    }, 
+    {
+      "op": "elemwise_add", 
+      "name": "_plus11487", 
+      "inputs": [[40, 0, 0], [46, 0, 0]]
+    }, 
+    {
+      "op": "Dropout", 
+      "name": "dropout57397", 
+      "attr": {"p": "0.0"}, 
+      "inputs": [[47, 0, 0]]
+    }, 
+    {
+      "op": "SliceChannel", 
+      "name": "lstmTreeInpOut_Pow__4_slice", 
+      "attr": {"num_outputs": "5"}, 
+      "inputs": [[48, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "lstmTreeInpOut_Pow__4_o", 
+      "attr": {"act_type": "sigmoid"}, 
+      "inputs": [[49, 4, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "lstmTreeInpOut_Pow__4_f1", 
+      "attr": {"act_type": "sigmoid"}, 
+      "inputs": [[49, 1, 0]]
+    }, 
+    {
+      "op": "_zeros", 
+      "name": "lstmTreeInpOut_Const__5_begin_memory", 
+      "attr": {
+        "dtype": "float32", 
+        "shape": "(0, 50)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "_mul", 
+      "name": "_mul44006", 
+      "inputs": [[51, 0, 0], [52, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "lstmTreeInpOut_Pow__4_f2", 
+      "attr": {"act_type": "sigmoid"}, 
+      "inputs": [[49, 2, 0]]
+    }, 
+    {
+      "op": "_zeros", 
+      "name": "lstmTreeInpOut_Const__6_begin_memory", 
+      "attr": {
+        "dtype": "float32", 
+        "shape": "(0, 50)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "_mul", 
+      "name": "_mul44007", 
+      "inputs": [[54, 0, 0], [55, 0, 0]]
+    }, 
+    {
+      "op": "elemwise_add", 
+      "name": "lstmTreeInpOut_Pow__4_for_mem", 
+      "inputs": [[53, 0, 0], [56, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "lstmTreeInpOut_Pow__4_i", 
+      "attr": {"act_type": "sigmoid"}, 
+      "inputs": [[49, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "lstmTreeInpOut_Pow__4_c", 
+      "attr": {"act_type": "tanh"}, 
+      "inputs": [[49, 3, 0]]
+    }, 
+    {
+      "op": "_mul", 
+      "name": "_mul44008", 
+      "inputs": [[58, 0, 0], [59, 0, 0]]
+    }, 
+    {
+      "op": "elemwise_add", 
+      "name": "lstmTreeInpOut_Pow__4_memory", 
+      "inputs": [[57, 0, 0], [60, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "activation13396", 
+      "attr": {"act_type": "tanh"}, 
+      "inputs": [[61, 0, 0]]
+    }, 
+    {
+      "op": "_mul", 
+      "name": "lstmTreeInpOut_Pow__4_state", 
+      "inputs": [[50, 0, 0], [62, 0, 0]]
+    }, 
+    {
+      "op": "_mul", 
+      "name": "_mul44009", 
+      "attr": {"dim": "1"}, 
+      "inputs": [[34, 0, 0], [63, 0, 0]]
+    }, 
+    {
+      "op": "sum", 
+      "name": "sum5727", 
+      "inputs": [[64, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "lstmTreeInpOut_Equality_i2h_weight", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "lstmTreeInpOut_Equality_i2h_bias", 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "fullyconnected5727", 
+      "attr": {"num_hidden": "1"}, 
+      "inputs": [[65, 0, 0], [66, 0, 0], [67, 0, 0]]
+    }, 
+    {
+      "op": "Reshape", 
+      "name": "lstmTreeInpOut_Equality__0_state", 
+      "attr": {"shape": "(1,)"}, 
+      "inputs": [[68, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "softmax_label", 
+      "inputs": []
+    }, 
+    {
+      "op": "LogisticRegressionOutput", 
+      "name": "softmax", 
+      "inputs": [[69, 0, 0], [70, 0, 0]]
+    }
+  ], 
+  "arg_nodes": [
+    0, 
+    2, 
+    3, 
+    7, 
+    8, 
+    10, 
+    15, 
+    16, 
+    35, 
+    41, 
+    66, 
+    67, 
+    70
+  ], 
+  "node_row_ptr": [
+    0, 
+    1, 
+    3, 
+    4, 
+    5, 
+    6, 
+    8, 
+    9, 
+    10, 
+    11, 
+    12, 
+    13, 
+    15, 
+    16, 
+    18, 
+    19, 
+    20, 
+    21, 
+    22, 
+    23, 
+    25, 
+    30, 
+    31, 
+    32, 
+    33, 
+    34, 
+    35, 
+    36, 
+    37, 
+    38, 
+    39, 
+    40, 
+    41, 
+    42, 
+    43, 
+    44, 
+    45, 
+    47, 
+    48, 
+    50, 
+    51, 
+    52, 
+    53, 
+    55, 
+    56, 
+    58, 
+    59, 
+    60, 
+    61, 
+    63, 
+    68, 
+    69, 
+    70, 
+    71, 
+    72, 
+    73, 
+    74, 
+    75, 
+    76, 
+    77, 
+    78, 
+    79, 
+    80, 
+    81, 
+    82, 
+    83, 
+    84, 
+    85, 
+    86, 
+    87, 
+    88, 
+    89, 
+    90
+  ], 
+  "heads": [[71, 0, 0]], 
+  "attrs": {"mxnet_version": ["int", 905]}
+}

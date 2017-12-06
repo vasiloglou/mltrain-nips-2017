@@ -1,0 +1,33 @@
+{
+    "accuracy_train": [
+        0.544708347886832, 
+        0.5759692630108278
+    ], 
+    "recall_train_final": 0.7280880554423156, 
+    "accuracy_train_final": 0.5759692630108278, 
+    "precision_dev_final": "precision", 
+    "args": "no args", 
+    "accuracy_dev": [
+        0.5547801814375436, 
+        0.578506629448709
+    ], 
+    "accuracy_dev_final": "accuracy", 
+    "precision_dev": [
+        0.47282608695652173, 
+        0.49105145413870244
+    ], 
+    "recall_train": [
+        0.7627395026498166, 
+        0.7280880554423156
+    ], 
+    "recall_dev_final": "recall", 
+    "precision_train": [
+        0.48023613963039014, 
+        0.5035241048773611
+    ], 
+    "precision_train_final": 0.5035241048773611, 
+    "recall_dev": [
+        0.7397959183673469, 
+        0.7465986394557823
+    ]
+}

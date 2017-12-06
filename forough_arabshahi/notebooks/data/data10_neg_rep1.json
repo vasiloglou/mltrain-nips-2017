@@ -1,0 +1,1904 @@
+[
+    [], 
+    [
+        {
+            "equation": {
+                "vars": ",var_0,#,#,0,#,#", 
+                "numNodes": "3", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,#,#,2,#,#", 
+                "func": "Equality,Symbol,#,#,Integer,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",2/5,#,#,1,#,#", 
+                "numNodes": "3", 
+                "variables": {}, 
+                "depth": "1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,#,#,2,#,#", 
+                "func": "Equality,Rational,#,#,One,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",0.7,#,#,0,#,#", 
+                "numNodes": "3", 
+                "variables": {}, 
+                "depth": "1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,#,#,2,#,#", 
+                "func": "Equality,Float,#,#,Integer,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",-1,#,#,3,#,#", 
+                "numNodes": "3", 
+                "variables": {}, 
+                "depth": "1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,#,#,2,#,#", 
+                "func": "Equality,NegativeOne,#,#,Integer,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",0,#,#,1/2,#,#", 
+                "numNodes": "3", 
+                "variables": {}, 
+                "depth": "1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,#,#,2,#,#", 
+                "func": "Equality,Integer,#,#,Half,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",0.7,#,#,-1,#,#", 
+                "numNodes": "3", 
+                "variables": {}, 
+                "depth": "1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,#,#,2,#,#", 
+                "func": "Equality,Float,#,#,NegativeOne,#,#"
+            }, 
+            "label": "0"
+        }
+    ], 
+    [
+        {
+            "equation": {
+                "vars": ",,var_0,#,#,#,,var_0,#,#,#", 
+                "numNodes": "5", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "2,1,0,#,#,#,1,0,#,#,#", 
+                "nodeNum": "0,1,3,#,#,#,2,4,#,#,#", 
+                "func": "Equality,cos,Symbol,#,#,#,sec,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,var_0,#,#,#,,var_0,#,#,#", 
+                "numNodes": "5", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "2,1,0,#,#,#,1,0,#,#,#", 
+                "nodeNum": "0,1,3,#,#,#,2,4,#,#,#", 
+                "func": "Equality,sec,Symbol,#,#,#,cos,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,0.7,#,#,1,#,#,1,#,#", 
+                "numNodes": "5", 
+                "variables": {}, 
+                "depth": "2,1,0,#,#,0,#,#,1,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,#,#", 
+                "func": "Equality,Mul,Float,#,#,One,#,#,One,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,0,#,#,1,#,#,1,#,#", 
+                "numNodes": "5", 
+                "variables": {}, 
+                "depth": "2,1,0,#,#,0,#,#,1,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,#,#", 
+                "func": "Equality,Mul,Integer,#,#,One,#,#,One,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,0,#,#,3,#,#,0,#,#", 
+                "numNodes": "5", 
+                "variables": {}, 
+                "depth": "2,1,0,#,#,0,#,#,1,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,#,#", 
+                "func": "Equality,Add,Integer,#,#,Integer,#,#,Integer,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,1,#,#,var_0,#,#,1/2,#,#", 
+                "numNodes": "5", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "2,1,0,#,#,0,#,#,1,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,#,#", 
+                "func": "Equality,Pow,One,#,#,Symbol,#,#,Half,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,var_0,#,#,1,#,#,var_1,#,#", 
+                "numNodes": "5", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "2,1,0,#,#,0,#,#,1,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,#,#", 
+                "func": "Equality,Pow,Symbol,#,#,One,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,0.7,#,#,1/2,#,#,2,#,#", 
+                "numNodes": "5", 
+                "variables": {}, 
+                "depth": "2,1,0,#,#,0,#,#,1,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,#,#", 
+                "func": "Equality,Pow,Float,#,#,Half,#,#,Integer,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,1,#,#,1/2,#,#,4,#,#", 
+                "numNodes": "5", 
+                "variables": {}, 
+                "depth": "2,1,0,#,#,0,#,#,1,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,#,#", 
+                "func": "Equality,Mul,One,#,#,Half,#,#,Integer,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,2,#,#,2,#,#,,4,#,#,var_0,#,#", 
+                "numNodes": "7", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "2,1,0,#,#,0,#,#,1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,5,#,#,6,#,#", 
+                "func": "Equality,Pow,Integer,#,#,Integer,#,#,Add,Integer,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,3,#,#,0,#,#,1/2,#,#", 
+                "numNodes": "5", 
+                "variables": {}, 
+                "depth": "2,1,0,#,#,0,#,#,1,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,#,#", 
+                "func": "Equality,Pow,Integer,#,#,Integer,#,#,Half,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,-1,#,#,1,#,#,3,#,#", 
+                "numNodes": "5", 
+                "variables": {}, 
+                "depth": "2,1,0,#,#,0,#,#,1,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,#,#", 
+                "func": "Equality,Add,NegativeOne,#,#,One,#,#,Integer,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,-1,#,#,3,#,#,1/2,#,#", 
+                "numNodes": "5", 
+                "variables": {}, 
+                "depth": "2,1,0,#,#,0,#,#,1,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,#,#", 
+                "func": "Equality,Add,NegativeOne,#,#,Integer,#,#,Half,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,1,#,#,var_1,#,#,var_0,#,#", 
+                "numNodes": "5", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "2,1,0,#,#,0,#,#,1,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,#,#", 
+                "func": "Equality,Mul,One,#,#,Symbol,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,var_0,#,#,var_1,#,#,,2,#,#,var_0,#,#", 
+                "numNodes": "7", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "2,1,0,#,#,0,#,#,1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,5,#,#,6,#,#", 
+                "func": "Equality,Add,Symbol,#,#,Symbol,#,#,Mul,Integer,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,var_0,#,#,var_0,#,#,,var_0,#,#,var_0,#,#", 
+                "numNodes": "7", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "2,1,0,#,#,0,#,#,1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,5,#,#,6,#,#", 
+                "func": "Equality,Mul,Symbol,#,#,Symbol,#,#,Add,Symbol,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",var_0,#,#,,var_0,#,#,var_1,#,#", 
+                "numNodes": "5", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "2,1,#,#,1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,#,#,2,3,#,#,4,#,#", 
+                "func": "Equality,Symbol,#,#,Mul,Symbol,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,-1,#,#,0,#,#,pi,#,#", 
+                "numNodes": "5", 
+                "variables": {}, 
+                "depth": "2,1,0,#,#,0,#,#,1,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,#,#", 
+                "func": "Equality,Mul,NegativeOne,#,#,Integer,#,#,Pi,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,pi,#,#,1,#,#,-1,#,#", 
+                "numNodes": "5", 
+                "variables": {}, 
+                "depth": "2,1,0,#,#,0,#,#,1,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,#,#", 
+                "func": "Equality,Mul,Pi,#,#,One,#,#,NegativeOne,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,1,#,#,0,#,#,-1,#,#", 
+                "numNodes": "5", 
+                "variables": {}, 
+                "depth": "2,1,0,#,#,0,#,#,1,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,#,#", 
+                "func": "Equality,Mul,One,#,#,Integer,#,#,NegativeOne,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",var_0,#,#,,var_0,#,#,var_0,#,#", 
+                "numNodes": "5", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "2,1,#,#,1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,#,#,2,3,#,#,4,#,#", 
+                "func": "Equality,Symbol,#,#,Mul,Symbol,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,2,#,#,var_0,#,#,2,#,#", 
+                "numNodes": "5", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "2,1,0,#,#,0,#,#,1,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,#,#", 
+                "func": "Equality,Pow,Integer,#,#,Symbol,#,#,Integer,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",4,#,#,,4,#,#,2/5,#,#", 
+                "numNodes": "5", 
+                "variables": {}, 
+                "depth": "2,1,#,#,1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,#,#,2,3,#,#,4,#,#", 
+                "func": "Equality,Integer,#,#,Add,Integer,#,#,Rational,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,pi,#,#,var_0,#,#,pi,#,#", 
+                "numNodes": "5", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "2,1,0,#,#,0,#,#,1,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,#,#", 
+                "func": "Equality,Mul,Pi,#,#,Symbol,#,#,Pi,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",10,#,#,,10,#,#,var_0,#,#", 
+                "numNodes": "5", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "2,1,#,#,1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,#,#,2,3,#,#,4,#,#", 
+                "func": "Equality,Integer,#,#,Add,Integer,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,var_1,#,#,#,,var_0,#,#,#", 
+                "numNodes": "5", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "2,1,0,#,#,#,1,0,#,#,#", 
+                "nodeNum": "0,1,3,#,#,#,2,4,#,#,#", 
+                "func": "Equality,csc,Symbol,#,#,#,csc,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }
+    ], 
+    [
+        {
+            "equation": {
+                "vars": ",var_0,#,#,,,var_0,#,#,#,-1,#,#", 
+                "numNodes": "6", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "3,2,#,#,2,1,0,#,#,#,1,#,#", 
+                "nodeNum": "0,1,#,#,2,3,5,#,#,#,4,#,#", 
+                "func": "Equality,Symbol,#,#,Pow,csc,Symbol,#,#,#,NegativeOne,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,var_0,#,#,#,,,var_0,#,#,#,-1,#,#", 
+                "numNodes": "7", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,#,#,#,2,1,0,#,#,#,1,#,#", 
+                "nodeNum": "0,1,3,#,#,#,2,4,6,#,#,#,5,#,#", 
+                "func": "Equality,csc,Symbol,#,#,#,Pow,sech,Symbol,#,#,#,NegativeOne,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,var_0,#,#,#,,,var_1,#,#,#,-1,#,#", 
+                "numNodes": "7", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,#,#,#,2,1,0,#,#,#,1,#,#", 
+                "nodeNum": "0,1,3,#,#,#,2,4,6,#,#,#,5,#,#", 
+                "func": "Equality,cot,Symbol,#,#,#,Pow,tan,Symbol,#,#,#,NegativeOne,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,-1,#,#,var_0,#,#,#,,-1,#,#,,var_1,#,#,#", 
+                "numNodes": "9", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,0,#,#,0,#,#,#,2,1,#,#,1,0,#,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,#,#,5,8,#,#,#", 
+                "func": "Equality,csc,Mul,NegativeOne,#,#,Symbol,#,#,#,Mul,NegativeOne,#,#,csc,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,-1,#,#,var_0,#,#,#,,var_0,#,#,#", 
+                "numNodes": "7", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,0,#,#,0,#,#,#,2,1,#,#,#", 
+                "nodeNum": "0,1,3,5,#,#,6,#,#,#,2,4,#,#,#", 
+                "func": "Equality,cos,Pow,NegativeOne,#,#,Symbol,#,#,#,cos,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,-1,#,#,var_0,#,#,#,-1,#,#", 
+                "numNodes": "6", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,0,#,#,0,#,#,#,2,#,#", 
+                "nodeNum": "0,1,3,4,#,#,5,#,#,#,2,#,#", 
+                "func": "Equality,tan,Mul,NegativeOne,#,#,Symbol,#,#,#,NegativeOne,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,-1,#,#,var_0,#,#,,-1,#,#,,var_0,#,#,#", 
+                "numNodes": "8", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,#,#,1,#,#,2,1,#,#,1,0,#,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,5,#,#,6,7,#,#,#", 
+                "func": "Equality,Mul,NegativeOne,#,#,Symbol,#,#,Mul,NegativeOne,#,#,cot,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,var_0,#,#,#,,-1,#,#,,var_0,#,#,#", 
+                "numNodes": "7", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,#,#,#,2,1,#,#,1,0,#,#,#", 
+                "nodeNum": "0,1,3,#,#,#,2,4,#,#,5,6,#,#,#", 
+                "func": "Equality,sin,Symbol,#,#,#,Mul,NegativeOne,#,#,sin,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_0,#,#,2/5,#,#,#,,-1,#,#,,var_0,#,#,#", 
+                "numNodes": "9", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,0,#,#,0,#,#,#,2,1,#,#,1,0,#,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,#,#,5,8,#,#,#", 
+                "func": "Equality,cos,Add,Symbol,#,#,Rational,#,#,#,Mul,NegativeOne,#,#,cos,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_0,#,#,pi,#,#,#,,var_0,#,#,#", 
+                "numNodes": "7", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,0,#,#,0,#,#,#,2,1,#,#,#", 
+                "nodeNum": "0,1,3,5,#,#,6,#,#,#,2,4,#,#,#", 
+                "func": "Equality,tan,Add,Symbol,#,#,Pi,#,#,#,acosh,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_0,#,#,pi,#,#,#,,0,#,#,,var_0,#,#,#", 
+                "numNodes": "9", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,0,#,#,0,#,#,#,2,1,#,#,1,0,#,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,#,#,5,8,#,#,#", 
+                "func": "Equality,csc,Add,Symbol,#,#,Pi,#,#,#,Mul,Integer,#,#,csc,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_0,#,#,pi,#,#,#,,-1,#,#,,var_0,#,#,#", 
+                "numNodes": "9", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,0,#,#,0,#,#,#,2,1,#,#,1,0,#,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,#,#,5,8,#,#,#", 
+                "func": "Equality,sec,Pow,Symbol,#,#,Pi,#,#,#,Mul,NegativeOne,#,#,sec,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,2,#,#,pi,#,#,#,,var_0,#,#,#", 
+                "numNodes": "7", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,0,#,#,0,#,#,#,2,1,#,#,#", 
+                "nodeNum": "0,1,3,5,#,#,6,#,#,#,2,4,#,#,#", 
+                "func": "Equality,cos,Mul,Integer,#,#,Pi,#,#,#,cos,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_0,#,#,2,#,#,#,,var_0,#,#,#", 
+                "numNodes": "7", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,0,#,#,0,#,#,#,2,1,#,#,#", 
+                "nodeNum": "0,1,3,5,#,#,6,#,#,#,2,4,#,#,#", 
+                "func": "Equality,tan,Add,Symbol,#,#,Integer,#,#,#,tan,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,2,#,#,pi,#,#,#,,var_0,#,#,#", 
+                "numNodes": "7", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,0,#,#,0,#,#,#,2,1,#,#,#", 
+                "nodeNum": "0,1,3,5,#,#,6,#,#,#,2,4,#,#,#", 
+                "func": "Equality,csc,Mul,Integer,#,#,Pi,#,#,#,csc,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,var_0,#,#,#,,,var_0,#,#,#,,var_0,#,#,-1,#,#", 
+                "numNodes": "9", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,#,#,#,2,1,0,#,#,#,1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,3,#,#,#,2,4,6,#,#,#,5,7,#,#,8,#,#", 
+                "func": "Equality,tan,Symbol,#,#,#,Mul,sin,Symbol,#,#,#,Pow,Symbol,#,#,NegativeOne,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,1,#,#,,1,#,#,2/5,#,#,2,#,#", 
+                "numNodes": "7", 
+                "variables": {}, 
+                "depth": "3,2,1,#,#,1,0,#,#,0,#,#,2,#,#", 
+                "nodeNum": "0,1,3,#,#,4,5,#,#,6,#,#,2,#,#", 
+                "func": "Equality,Add,One,#,#,Add,One,#,#,Rational,#,#,Integer,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_0,#,#,0,#,#,10,#,#,1,#,#", 
+                "numNodes": "7", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,0,#,#,0,#,#,1,#,#,2,#,#", 
+                "nodeNum": "0,1,3,5,#,#,6,#,#,4,#,#,2,#,#", 
+                "func": "Equality,Mul,Pow,Symbol,#,#,Integer,#,#,Integer,#,#,One,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,4,#,#,,1/2,#,#,1/2,#,#,2,#,#", 
+                "numNodes": "7", 
+                "variables": {}, 
+                "depth": "3,2,1,#,#,1,0,#,#,0,#,#,2,#,#", 
+                "nodeNum": "0,1,3,#,#,4,5,#,#,6,#,#,2,#,#", 
+                "func": "Equality,Mul,Integer,#,#,Mul,Half,#,#,Half,#,#,Integer,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,3,#,#,#,1,#,#,4,#,#", 
+                "numNodes": "6", 
+                "variables": {}, 
+                "depth": "3,2,1,0,#,#,#,1,#,#,2,#,#", 
+                "nodeNum": "0,1,3,5,#,#,#,4,#,#,2,#,#", 
+                "func": "Equality,Add,csch,Integer,#,#,#,One,#,#,Integer,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,0.7,#,#,1,#,#,1,#,#,3,#,#", 
+                "numNodes": "7", 
+                "variables": {}, 
+                "depth": "3,2,1,0,#,#,0,#,#,1,#,#,2,#,#", 
+                "nodeNum": "0,1,3,5,#,#,6,#,#,4,#,#,2,#,#", 
+                "func": "Equality,Add,Add,Float,#,#,One,#,#,One,#,#,Integer,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,3,#,#,,-1,#,#,1,#,#,2,#,#", 
+                "numNodes": "7", 
+                "variables": {}, 
+                "depth": "3,2,1,#,#,1,0,#,#,0,#,#,2,#,#", 
+                "nodeNum": "0,1,3,#,#,4,5,#,#,6,#,#,2,#,#", 
+                "func": "Equality,Add,Integer,#,#,Add,NegativeOne,#,#,One,#,#,Integer,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,0.7,#,#,,-1,#,#,2,#,#,2,#,#", 
+                "numNodes": "7", 
+                "variables": {}, 
+                "depth": "3,2,1,#,#,1,0,#,#,0,#,#,2,#,#", 
+                "nodeNum": "0,1,3,#,#,4,5,#,#,6,#,#,2,#,#", 
+                "func": "Equality,Add,Float,#,#,Mul,NegativeOne,#,#,Integer,#,#,Integer,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,1,#,#,,-1,#,#,1,#,#,,0,#,#,#", 
+                "numNodes": "8", 
+                "variables": {}, 
+                "depth": "3,2,1,#,#,1,0,#,#,0,#,#,2,1,#,#,#", 
+                "nodeNum": "0,1,3,#,#,4,6,#,#,7,#,#,2,5,#,#,#", 
+                "func": "Equality,Add,One,#,#,Mul,NegativeOne,#,#,One,#,#,acot,Integer,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,0,#,#,,-1,#,#,0,#,#,1/2,#,#", 
+                "numNodes": "7", 
+                "variables": {}, 
+                "depth": "3,2,1,#,#,1,0,#,#,0,#,#,2,#,#", 
+                "nodeNum": "0,1,3,#,#,4,5,#,#,6,#,#,2,#,#", 
+                "func": "Equality,Add,Integer,#,#,Mul,NegativeOne,#,#,Integer,#,#,Half,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_1,#,#,var_0,#,#,var_0,#,#,,3,#,#,var_0,#,#", 
+                "numNodes": "9", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,0,#,#,0,#,#,1,#,#,2,1,#,#,1,#,#", 
+                "nodeNum": "0,1,3,7,#,#,8,#,#,4,#,#,2,5,#,#,6,#,#", 
+                "func": "Equality,Add,Add,Symbol,#,#,Symbol,#,#,Symbol,#,#,Mul,Integer,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,var_1,#,#,var_0,#,#,,var_0,#,#,,var_1,#,#,#", 
+                "numNodes": "8", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,#,#,1,#,#,2,1,#,#,1,0,#,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,5,#,#,6,7,#,#,#", 
+                "func": "Equality,Add,Symbol,#,#,Symbol,#,#,Add,Symbol,#,#,acosh,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_1,#,#,var_2,#,#,var_0,#,#,,var_1,#,#,var_2,#,#", 
+                "numNodes": "9", 
+                "variables": {
+                    "var_2": 2, 
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,0,#,#,0,#,#,1,#,#,2,1,#,#,1,#,#", 
+                "nodeNum": "0,1,3,7,#,#,8,#,#,4,#,#,2,5,#,#,6,#,#", 
+                "func": "Equality,Add,Add,Symbol,#,#,Symbol,#,#,Symbol,#,#,Add,Symbol,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_2,#,#,var_1,#,#,var_0,#,#,,,var_0,#,#,#,,var_2,#,#,var_1,#,#", 
+                "numNodes": "12", 
+                "variables": {
+                    "var_2": 2, 
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,0,#,#,0,#,#,1,#,#,2,1,0,#,#,#,1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,3,7,#,#,8,#,#,4,#,#,2,5,9,#,#,#,6,10,#,#,11,#,#", 
+                "func": "Equality,Add,Add,Symbol,#,#,Symbol,#,#,Symbol,#,#,Add,acoth,Symbol,#,#,#,Add,Symbol,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_2,#,#,var_1,#,#,,var_0,#,#,#,,var_0,#,#,,var_1,#,#,var_2,#,#", 
+                "numNodes": "12", 
+                "variables": {
+                    "var_2": 2, 
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,0,#,#,0,#,#,1,0,#,#,#,2,1,#,#,1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,3,7,#,#,8,#,#,4,9,#,#,#,2,5,#,#,6,10,#,#,11,#,#", 
+                "func": "Equality,Add,Add,Symbol,#,#,Symbol,#,#,tan,Symbol,#,#,#,Add,Symbol,#,#,Add,Symbol,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_2,#,#,var_0,#,#,var_2,#,#,,var_0,#,#,,var_1,#,#,var_2,#,#", 
+                "numNodes": "11", 
+                "variables": {
+                    "var_2": 2, 
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,0,#,#,0,#,#,1,#,#,2,1,#,#,1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,3,7,#,#,8,#,#,4,#,#,2,5,#,#,6,9,#,#,10,#,#", 
+                "func": "Equality,Add,Add,Symbol,#,#,Symbol,#,#,Symbol,#,#,Add,Symbol,#,#,Add,Symbol,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_2,#,#,var_0,#,#,var_2,#,#,,var_0,#,#,,var_2,#,#,var_1,#,#", 
+                "numNodes": "11", 
+                "variables": {
+                    "var_2": 2, 
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,0,#,#,0,#,#,1,#,#,2,1,#,#,1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,3,7,#,#,8,#,#,4,#,#,2,5,#,#,6,9,#,#,10,#,#", 
+                "func": "Equality,Add,Add,Symbol,#,#,Symbol,#,#,Symbol,#,#,Add,Symbol,#,#,Add,Symbol,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,1,#,#,,var_1,#,#,var_0,#,#,,var_0,#,#,var_0,#,#", 
+                "numNodes": "9", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,#,#,1,0,#,#,0,#,#,2,1,#,#,1,#,#", 
+                "nodeNum": "0,1,3,#,#,4,7,#,#,8,#,#,2,5,#,#,6,#,#", 
+                "func": "Equality,Mul,One,#,#,Add,Symbol,#,#,Symbol,#,#,Add,Symbol,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,1,#,#,var_1,#,#,,,1,#,#,var_1,#,#,,1,#,#,var_0,#,#", 
+                "numNodes": "11", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,#,#,1,#,#,2,1,0,#,#,0,#,#,1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,5,7,#,#,8,#,#,6,9,#,#,10,#,#", 
+                "func": "Equality,Mul,One,#,#,Symbol,#,#,Add,Mul,One,#,#,Symbol,#,#,Mul,One,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,2,#,#,,var_0,#,#,var_0,#,#,,,2,#,#,var_1,#,#,,2,#,#,var_0,#,#", 
+                "numNodes": "13", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,#,#,1,0,#,#,0,#,#,2,1,0,#,#,0,#,#,1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,3,#,#,4,7,#,#,8,#,#,2,5,9,#,#,10,#,#,6,11,#,#,12,#,#", 
+                "func": "Equality,Mul,Integer,#,#,Add,Symbol,#,#,Symbol,#,#,Add,Mul,Integer,#,#,Symbol,#,#,Mul,Integer,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_2,#,#,var_1,#,#,var_0,#,#,,var_0,#,#,,var_2,#,#,var_0,#,#", 
+                "numNodes": "11", 
+                "variables": {
+                    "var_2": 2, 
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,0,#,#,0,#,#,1,#,#,2,1,#,#,1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,3,7,#,#,8,#,#,4,#,#,2,5,#,#,6,9,#,#,10,#,#", 
+                "func": "Equality,Mul,Mul,Symbol,#,#,Symbol,#,#,Symbol,#,#,Mul,Symbol,#,#,Mul,Symbol,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,var_2,#,#,var_0,#,#,,var_0,#,#,,var_1,#,#,var_2,#,#", 
+                "numNodes": "9", 
+                "variables": {
+                    "var_2": 2, 
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,#,#,1,#,#,2,1,#,#,1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,5,#,#,6,7,#,#,8,#,#", 
+                "func": "Equality,Mul,Symbol,#,#,Symbol,#,#,Mul,Symbol,#,#,Mul,Symbol,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_1,#,#,var_0,#,#,var_2,#,#,,var_0,#,#,,var_1,#,#,var_1,#,#", 
+                "numNodes": "11", 
+                "variables": {
+                    "var_2": 2, 
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,0,#,#,0,#,#,1,#,#,2,1,#,#,1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,3,7,#,#,8,#,#,4,#,#,2,5,#,#,6,9,#,#,10,#,#", 
+                "func": "Equality,Mul,Mul,Symbol,#,#,Symbol,#,#,Symbol,#,#,Mul,Symbol,#,#,Mul,Symbol,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,-1,#,#,2,#,#,,,-1,#,#,2,#,#,var_0,#,#", 
+                "numNodes": "9", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "3,2,1,#,#,1,#,#,2,1,0,#,#,0,#,#,1,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,5,7,#,#,8,#,#,6,#,#", 
+                "func": "Equality,Mul,NegativeOne,#,#,Integer,#,#,Mul,Mul,NegativeOne,#,#,Integer,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,2,#,#,-1,#,#,,,-1,#,#,2,#,#,#", 
+                "numNodes": "8", 
+                "variables": {}, 
+                "depth": "3,2,1,#,#,1,#,#,2,1,0,#,#,0,#,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,5,6,#,#,7,#,#,#", 
+                "func": "Equality,Mul,Integer,#,#,NegativeOne,#,#,acosh,Mul,NegativeOne,#,#,Integer,#,#,#"
+            }, 
+            "label": "0"
+        }
+    ], 
+    [
+        {
+            "equation": {
+                "vars": ",,var_0,#,#,#,,,,var_0,#,#,#,-1,#,#,#", 
+                "numNodes": "8", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,#,#,#,3,2,1,0,#,#,#,1,#,#,#", 
+                "nodeNum": "0,1,3,#,#,#,2,4,5,7,#,#,#,6,#,#,#", 
+                "func": "Equality,tan,Symbol,#,#,#,asinh,Pow,cot,Symbol,#,#,#,NegativeOne,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,,var_0,#,#,#,2,#,#,,,var_0,#,#,#,2,#,#,1,#,#", 
+                "numNodes": "11", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,1,0,#,#,#,1,#,#,2,1,0,#,#,#,1,#,#,3,#,#", 
+                "nodeNum": "0,1,3,5,9,#,#,#,6,#,#,4,7,10,#,#,#,8,#,#,2,#,#", 
+                "func": "Equality,Add,Pow,tan,Symbol,#,#,#,Integer,#,#,Pow,cos,Symbol,#,#,#,Integer,#,#,One,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,,-1,#,#,#,var_0,#,#,#,,-1,#,#,,var_0,#,#,#", 
+                "numNodes": "10", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,1,0,#,#,#,1,#,#,#,3,2,#,#,2,1,#,#,#", 
+                "nodeNum": "0,1,3,6,9,#,#,#,7,#,#,#,2,4,#,#,5,8,#,#,#", 
+                "func": "Equality,sin,Mul,cot,NegativeOne,#,#,#,Symbol,#,#,#,Mul,NegativeOne,#,#,sin,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,var_0,#,#,#,,,pi,#,#,,2,#,#,-1,#,#,,-1,#,#,var_0,#,#", 
+                "numNodes": "12", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,#,#,#,3,2,1,#,#,1,0,#,#,0,#,#,2,1,#,#,1,#,#", 
+                "nodeNum": "0,1,3,#,#,#,2,4,6,#,#,7,10,#,#,11,#,#,5,8,#,#,9,#,#", 
+                "func": "Equality,sin,Symbol,#,#,#,Add,Mul,Pi,#,#,Pow,Integer,#,#,NegativeOne,#,#,Mul,NegativeOne,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,var_0,#,#,#,,,pi,#,#,,-1,#,#,var_0,#,#,#", 
+                "numNodes": "9", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,#,#,#,3,2,1,#,#,1,0,#,#,0,#,#,#", 
+                "nodeNum": "0,1,3,#,#,#,2,4,5,#,#,6,7,#,#,8,#,#,#", 
+                "func": "Equality,cot,Symbol,#,#,#,tan,Add,Pi,#,#,Mul,NegativeOne,#,#,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_1,#,#,var_0,#,#,#,,,,var_1,#,#,#,,var_0,#,#,#,,,var_1,#,#,#,,var_0,#,#,#", 
+                "numNodes": "16", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,1,#,#,1,#,#,#,3,2,1,0,#,#,#,1,0,#,#,#,2,1,0,#,#,#,1,0,#,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,8,12,#,#,#,9,13,#,#,#,5,10,14,#,#,#,11,15,#,#,#", 
+                "func": "Equality,sin,Add,Symbol,#,#,Symbol,#,#,#,Add,Mul,sin,Symbol,#,#,#,cos,Symbol,#,#,#,Mul,asinh,Symbol,#,#,#,sin,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_1,#,#,,pi,#,#,var_0,#,#,#,,,,var_1,#,#,#,,var_0,#,#,#,,,var_1,#,#,#,,var_0,#,#,#", 
+                "numNodes": "18", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,1,#,#,1,0,#,#,0,#,#,#,3,2,1,0,#,#,#,1,0,#,#,#,2,1,0,#,#,#,1,0,#,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,12,#,#,13,#,#,#,2,4,8,14,#,#,#,9,15,#,#,#,5,10,16,#,#,#,11,17,#,#,#", 
+                "func": "Equality,cos,Add,Symbol,#,#,Mul,Pi,#,#,Symbol,#,#,#,Add,Mul,cos,Symbol,#,#,#,cos,Symbol,#,#,#,Mul,sin,Symbol,#,#,#,sin,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,2,#,#,var_0,#,#,#,,2,#,#,,,var_0,#,#,#,,var_0,#,#,#", 
+                "numNodes": "12", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,1,#,#,1,#,#,#,3,2,#,#,2,1,0,#,#,#,1,0,#,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,#,#,5,8,10,#,#,#,9,11,#,#,#", 
+                "func": "Equality,sin,Mul,Integer,#,#,Symbol,#,#,#,Pow,Integer,#,#,Mul,sin,Symbol,#,#,#,cos,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,2,#,#,,,var_0,#,#,#,1/2,#,#,,1,#,#,,,2,#,#,var_0,#,#,#", 
+                "numNodes": "13", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,#,#,2,1,0,#,#,#,1,#,#,3,2,#,#,2,1,0,#,#,0,#,#,#", 
+                "nodeNum": "0,1,3,#,#,4,7,10,#,#,#,8,#,#,2,5,#,#,6,9,11,#,#,12,#,#,#", 
+                "func": "Equality,Mul,Integer,#,#,Pow,cos,Symbol,#,#,#,Half,#,#,Add,One,#,#,cos,Mul,Integer,#,#,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,1,#,#,,,var_0,#,#,#,2,#,#,,,var_0,#,#,#,2,#,#", 
+                "numNodes": "11", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,#,#,2,1,0,#,#,#,1,#,#,3,2,1,#,#,#,2,#,#", 
+                "nodeNum": "0,1,3,#,#,4,7,10,#,#,#,8,#,#,2,5,9,#,#,#,6,#,#", 
+                "func": "Equality,Add,One,#,#,Pow,tan,Symbol,#,#,#,Integer,#,#,Mul,sec,Symbol,#,#,#,Integer,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,-1,#,#,,,var_0,#,#,#,2,#,#,,,var_0,#,#,#,2,#,#", 
+                "numNodes": "11", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,#,#,2,1,0,#,#,#,1,#,#,3,2,1,#,#,#,2,#,#", 
+                "nodeNum": "0,1,3,#,#,4,7,10,#,#,#,8,#,#,2,5,9,#,#,#,6,#,#", 
+                "func": "Equality,Add,NegativeOne,#,#,Pow,cot,Symbol,#,#,#,Integer,#,#,Pow,csc,Symbol,#,#,#,Integer,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,pi,#,#,,-1,#,#,var_1,#,#,#,,var_0,#,#,#", 
+                "numNodes": "9", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,1,#,#,1,0,#,#,0,#,#,#,3,2,#,#,#", 
+                "nodeNum": "0,1,3,5,#,#,6,7,#,#,8,#,#,#,2,4,#,#,#", 
+                "func": "Equality,sin,Add,Pi,#,#,Mul,NegativeOne,#,#,Symbol,#,#,#,sin,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,pi,#,#,,-1,#,#,var_0,#,#,#,,var_0,#,#,#", 
+                "numNodes": "9", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,1,#,#,1,0,#,#,0,#,#,#,3,2,#,#,#", 
+                "nodeNum": "0,1,3,5,#,#,6,7,#,#,8,#,#,#,2,4,#,#,#", 
+                "func": "Equality,cos,Add,Pi,#,#,Mul,NegativeOne,#,#,Symbol,#,#,#,cos,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,pi,#,#,,-1,#,#,var_0,#,#,#,,-1,#,#,,var_0,#,#,#", 
+                "numNodes": "11", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,1,#,#,1,0,#,#,0,#,#,#,3,2,#,#,2,1,#,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,9,#,#,10,#,#,#,2,4,#,#,5,8,#,#,#", 
+                "func": "Equality,cot,Add,Pi,#,#,Mul,NegativeOne,#,#,Symbol,#,#,#,Mul,NegativeOne,#,#,tan,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,-1,#,#,,-1,#,#,var_0,#,#,#,,-1,#,#,,var_0,#,#,#", 
+                "numNodes": "11", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,1,#,#,1,0,#,#,0,#,#,#,3,2,#,#,2,1,#,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,9,#,#,10,#,#,#,2,4,#,#,5,8,#,#,#", 
+                "func": "Equality,sec,Add,NegativeOne,#,#,Mul,NegativeOne,#,#,Symbol,#,#,#,Mul,NegativeOne,#,#,sec,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_0,#,#,,2,#,#,pi,#,#,#,,,var_0,#,#,1,#,#,#", 
+                "numNodes": "11", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,1,#,#,1,0,#,#,0,#,#,#,3,2,1,#,#,1,#,#,#", 
+                "nodeNum": "0,1,3,5,#,#,6,9,#,#,10,#,#,#,2,4,7,#,#,8,#,#,#", 
+                "func": "Equality,sin,Add,Symbol,#,#,Mul,Integer,#,#,Pi,#,#,#,sin,Add,Symbol,#,#,One,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_1,#,#,,2,#,#,pi,#,#,#,,var_0,#,#,#", 
+                "numNodes": "9", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,1,#,#,1,0,#,#,0,#,#,#,3,2,#,#,#", 
+                "nodeNum": "0,1,3,5,#,#,6,7,#,#,8,#,#,#,2,4,#,#,#", 
+                "func": "Equality,sec,Add,Symbol,#,#,Mul,Integer,#,#,Pi,#,#,#,sec,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,,var_1,#,#,var_0,#,#,var_2,#,#,#,,var_1,#,#,,var_0,#,#,var_2,#,#", 
+                "numNodes": "12", 
+                "variables": {
+                    "var_2": 2, 
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,1,0,#,#,0,#,#,1,#,#,#,3,2,#,#,2,1,#,#,1,#,#", 
+                "nodeNum": "0,1,3,6,10,#,#,11,#,#,7,#,#,#,2,4,#,#,5,8,#,#,9,#,#", 
+                "func": "Equality,cosh,Add,Add,Symbol,#,#,Symbol,#,#,Symbol,#,#,#,Add,Symbol,#,#,Add,Symbol,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_1,#,#,,var_0,#,#,#,var_2,#,#,,var_1,#,#,,var_0,#,#,var_2,#,#", 
+                "numNodes": "12", 
+                "variables": {
+                    "var_2": 2, 
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,1,#,#,1,0,#,#,#,2,#,#,3,2,#,#,2,1,#,#,1,#,#", 
+                "nodeNum": "0,1,3,7,#,#,8,11,#,#,#,4,#,#,2,5,#,#,6,9,#,#,10,#,#", 
+                "func": "Equality,Mul,Mul,Symbol,#,#,sinh,Symbol,#,#,#,Symbol,#,#,Mul,Symbol,#,#,Mul,Symbol,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,,var_1,#,#,var_0,#,#,var_2,#,#,var_0,#,#,,var_1,#,#,,var_0,#,#,var_2,#,#", 
+                "numNodes": "13", 
+                "variables": {
+                    "var_2": 2, 
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,1,0,#,#,0,#,#,1,#,#,2,#,#,3,2,#,#,2,1,#,#,1,#,#", 
+                "nodeNum": "0,1,3,7,11,#,#,12,#,#,8,#,#,4,#,#,2,5,#,#,6,9,#,#,10,#,#", 
+                "func": "Equality,Mul,Mul,Pow,Symbol,#,#,Symbol,#,#,Symbol,#,#,Symbol,#,#,Mul,Symbol,#,#,Mul,Symbol,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,,var_1,#,#,var_0,#,#,var_2,#,#,#,,var_0,#,#,,var_1,#,#,var_2,#,#", 
+                "numNodes": "12", 
+                "variables": {
+                    "var_2": 2, 
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,1,0,#,#,0,#,#,1,#,#,#,3,2,#,#,2,1,#,#,1,#,#", 
+                "nodeNum": "0,1,3,6,10,#,#,11,#,#,7,#,#,#,2,4,#,#,5,8,#,#,9,#,#", 
+                "func": "Equality,sin,Mul,Mul,Symbol,#,#,Symbol,#,#,Symbol,#,#,#,Mul,Symbol,#,#,Mul,Symbol,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,1,#,#,,0,#,#,var_0,#,#,var_0,#,#,var_0,#,#", 
+                "numNodes": "9", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,1,#,#,1,0,#,#,0,#,#,2,#,#,3,#,#", 
+                "nodeNum": "0,1,3,5,#,#,6,7,#,#,8,#,#,4,#,#,2,#,#", 
+                "func": "Equality,Add,Mul,One,#,#,Add,Integer,#,#,Symbol,#,#,Symbol,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,pi,#,#,,-1,#,#,var_1,#,#,#,,,var_0,#,#,#,-1,#,#", 
+                "numNodes": "11", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,1,#,#,1,0,#,#,0,#,#,#,3,2,1,#,#,#,2,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,9,#,#,10,#,#,#,2,4,8,#,#,#,5,#,#", 
+                "func": "Equality,sec,Add,Pi,#,#,Mul,NegativeOne,#,#,Symbol,#,#,#,Mul,sec,Symbol,#,#,#,NegativeOne,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,1/2,#,#,,,var_1,#,#,var_0,#,#,var_2,#,#,,1/2,#,#,,var_2,#,#,,var_0,#,#,var_2,#,#", 
+                "numNodes": "15", 
+                "variables": {
+                    "var_2": 2, 
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,#,#,2,1,0,#,#,0,#,#,1,#,#,3,2,#,#,2,1,#,#,1,0,#,#,0,#,#", 
+                "nodeNum": "0,1,3,#,#,4,7,11,#,#,12,#,#,8,#,#,2,5,#,#,6,9,#,#,10,13,#,#,14,#,#", 
+                "func": "Equality,Add,Half,#,#,Add,Add,Symbol,#,#,Symbol,#,#,Symbol,#,#,Add,Half,#,#,Add,Symbol,#,#,Add,Symbol,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,-1,#,#,var_0,#,#,#,,-1,#,#,,,var_1,#,#,1,#,#,#", 
+                "numNodes": "11", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "4,3,2,1,#,#,1,#,#,#,3,2,#,#,2,1,0,#,#,0,#,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,#,#,5,8,9,#,#,10,#,#,#", 
+                "func": "Equality,cot,Mul,NegativeOne,#,#,Symbol,#,#,#,Mul,NegativeOne,#,#,cot,Pow,Symbol,#,#,One,#,#,#"
+            }, 
+            "label": "0"
+        }
+    ], 
+    [
+        {
+            "equation": {
+                "vars": ",,,,,var_0,#,#,#,2,#,#,1,#,#,#,,,var_0,#,#,#,2,#,#", 
+                "numNodes": "12", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,1,0,#,#,#,1,#,#,2,#,#,#,4,3,2,#,#,#,3,#,#", 
+                "nodeNum": "0,1,3,6,9,11,#,#,#,10,#,#,7,#,#,#,2,4,8,#,#,#,5,#,#", 
+                "func": "Equality,atanh,Add,Pow,tan,Symbol,#,#,#,Integer,#,#,One,#,#,#,Pow,sec,Symbol,#,#,#,Integer,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,var_0,#,#,#,,,,pi,#,#,,2,#,#,-1,#,#,,-1,#,#,var_0,#,#,#", 
+                "numNodes": "13", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,#,#,#,4,3,2,1,#,#,1,0,#,#,0,#,#,2,1,#,#,1,#,#,#", 
+                "nodeNum": "0,1,3,#,#,#,2,4,5,7,#,#,8,11,#,#,12,#,#,6,9,#,#,10,#,#,#", 
+                "func": "Equality,cos,Symbol,#,#,#,cot,Add,Mul,Pi,#,#,Pow,Integer,#,#,NegativeOne,#,#,Mul,NegativeOne,#,#,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,var_0,#,#,#,,,,,pi,#,#,-1,#,#,,2,#,#,-1,#,#,,-1,#,#,var_0,#,#,#", 
+                "numNodes": "15", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,#,#,#,4,3,2,1,0,#,#,0,#,#,1,0,#,#,0,#,#,2,1,#,#,1,#,#,#", 
+                "nodeNum": "0,1,3,#,#,#,2,4,5,7,11,#,#,12,#,#,8,13,#,#,14,#,#,6,9,#,#,10,#,#,#", 
+                "func": "Equality,sec,Symbol,#,#,#,csc,Add,Mul,Mul,Pi,#,#,NegativeOne,#,#,Pow,Integer,#,#,NegativeOne,#,#,Mul,NegativeOne,#,#,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,var_1,#,#,#,,,,pi,#,#,,2,#,#,-1,#,#,,-1,#,#,var_0,#,#,#", 
+                "numNodes": "13", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,#,#,#,4,3,2,1,#,#,1,0,#,#,0,#,#,2,1,#,#,1,#,#,#", 
+                "nodeNum": "0,1,3,#,#,#,2,4,5,7,#,#,8,11,#,#,12,#,#,6,9,#,#,10,#,#,#", 
+                "func": "Equality,csc,Symbol,#,#,#,sec,Add,Mul,Pi,#,#,Pow,Integer,#,#,NegativeOne,#,#,Mul,NegativeOne,#,#,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,var_0,#,#,#,,,,pi,#,#,,2,#,#,-1,#,#,,-1,#,#,var_0,#,#,#", 
+                "numNodes": "13", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,#,#,#,4,3,2,1,#,#,1,0,#,#,0,#,#,2,1,#,#,1,#,#,#", 
+                "nodeNum": "0,1,3,#,#,#,2,4,5,7,#,#,8,11,#,#,12,#,#,6,9,#,#,10,#,#,#", 
+                "func": "Equality,tan,Symbol,#,#,#,cot,Add,Mul,Pi,#,#,Pow,Integer,#,#,NegativeOne,#,#,Add,NegativeOne,#,#,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_1,#,#,,-1,#,#,var_0,#,#,#,,,var_0,#,#,#,,-1,#,#,,,var_1,#,#,#,,var_0,#,#,#", 
+                "numNodes": "17", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,#,#,2,1,#,#,1,#,#,#,4,3,2,#,#,#,3,2,#,#,2,1,0,#,#,#,1,0,#,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,11,#,#,12,#,#,#,2,4,8,#,#,#,5,9,#,#,10,13,15,#,#,#,14,16,#,#,#", 
+                "func": "Equality,sin,Add,Symbol,#,#,Mul,NegativeOne,#,#,Symbol,#,#,#,Add,cos,Symbol,#,#,#,Mul,NegativeOne,#,#,Mul,cos,Symbol,#,#,#,sin,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_1,#,#,var_0,#,#,#,,,,var_1,#,#,#,,var_0,#,#,#,,-1,#,#,,,var_1,#,#,#,,var_1,#,#,#", 
+                "numNodes": "18", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,#,#,2,#,#,#,4,3,2,1,#,#,#,2,1,#,#,#,3,2,#,#,2,1,0,#,#,#,1,0,#,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,8,12,#,#,#,9,13,#,#,#,5,10,#,#,11,14,16,#,#,#,15,17,#,#,#", 
+                "func": "Equality,cos,Add,Symbol,#,#,Symbol,#,#,#,Add,Mul,cos,Symbol,#,#,#,cos,Symbol,#,#,#,Mul,NegativeOne,#,#,Mul,sin,Symbol,#,#,#,sin,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_1,#,#,var_0,#,#,#,,,,var_1,#,#,,var_0,#,#,#,-1,#,#,,,,var_1,#,#,#,,var_0,#,#,#,-1,#,#", 
+                "numNodes": "19", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,#,#,2,#,#,#,4,3,2,1,#,#,1,0,#,#,#,2,#,#,3,2,1,0,#,#,#,1,0,#,#,#,2,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,8,12,#,#,13,16,#,#,#,9,#,#,5,10,14,17,#,#,#,15,18,#,#,#,11,#,#", 
+                "func": "Equality,cot,Add,Symbol,#,#,Symbol,#,#,#,Mul,Add,Mul,Symbol,#,#,cot,Symbol,#,#,#,NegativeOne,#,#,Pow,Add,cot,Symbol,#,#,#,cot,Symbol,#,#,#,NegativeOne,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,2,#,#,var_0,#,#,#,,,,,var_0,#,#,#,2,#,#,#,,-1,#,#,,,var_0,#,#,#,2,#,#", 
+                "numNodes": "17", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,#,#,2,#,#,#,4,3,2,1,0,#,#,#,1,#,#,#,3,2,#,#,2,1,0,#,#,#,1,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,8,11,15,#,#,#,12,#,#,#,5,9,#,#,10,13,16,#,#,#,14,#,#", 
+                "func": "Equality,cos,Mul,Integer,#,#,Symbol,#,#,#,Add,atanh,Pow,cos,Symbol,#,#,#,Integer,#,#,#,Mul,NegativeOne,#,#,Pow,sin,Symbol,#,#,#,Integer,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,2,#,#,var_0,#,#,#,,,1,#,#,var_0,#,#,,-2,#,#,,,var_0,#,#,#,2,#,#", 
+                "numNodes": "15", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,#,#,2,#,#,#,4,3,2,#,#,2,#,#,3,2,#,#,2,1,0,#,#,#,1,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,8,#,#,9,#,#,5,10,#,#,11,12,14,#,#,#,13,#,#", 
+                "func": "Equality,cos,Mul,Integer,#,#,Symbol,#,#,#,Add,Pow,One,#,#,Symbol,#,#,Mul,Integer,#,#,Pow,sin,Symbol,#,#,#,Integer,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,2,#,#,var_0,#,#,#,,,2,#,#,,,var_1,#,#,#,2,#,#,-1,#,#", 
+                "numNodes": "13", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,#,#,2,#,#,#,4,3,2,#,#,2,1,0,#,#,#,1,#,#,3,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,8,#,#,9,10,12,#,#,#,11,#,#,5,#,#", 
+                "func": "Equality,cos,Mul,Integer,#,#,Symbol,#,#,#,Add,Mul,Integer,#,#,Pow,cos,Symbol,#,#,#,Integer,#,#,NegativeOne,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,2,#,#,var_0,#,#,,,,,var_0,#,#,#,2,#,#,-1,#,#,,,2,#,#,,var_0,#,#,#,-1,#,#", 
+                "numNodes": "17", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,#,#,3,#,#,4,3,2,1,0,#,#,#,1,#,#,2,#,#,3,2,1,#,#,1,0,#,#,#,2,#,#", 
+                "nodeNum": "0,1,3,#,#,4,#,#,2,5,7,11,15,#,#,#,12,#,#,8,#,#,6,9,13,#,#,14,16,#,#,#,10,#,#", 
+                "func": "Equality,Mul,Integer,#,#,Symbol,#,#,Mul,Add,Pow,cot,Symbol,#,#,#,Integer,#,#,NegativeOne,#,#,Pow,Mul,Integer,#,#,cot,Symbol,#,#,#,NegativeOne,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,2,#,#,#,,,var_0,#,#,#,2,#,#,,1,#,#,,-1,#,#,,,2,#,#,var_0,#,#,#", 
+                "numNodes": "16", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,#,#,#,3,2,1,#,#,#,2,#,#,4,3,#,#,3,2,#,#,2,1,0,#,#,0,#,#,#", 
+                "nodeNum": "0,1,3,7,#,#,#,4,8,12,#,#,#,9,#,#,2,5,#,#,6,10,#,#,11,13,14,#,#,15,#,#,#", 
+                "func": "Equality,Mul,atan,Integer,#,#,#,Pow,sin,Symbol,#,#,#,Integer,#,#,Add,One,#,#,Mul,NegativeOne,#,#,cos,Mul,Integer,#,#,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_0,#,#,#,2,#,#,,,2,#,#,-1,#,#,,-1/2,#,#,,,2,#,#,var_0,#,#,#", 
+                "numNodes": "15", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,#,#,#,3,#,#,4,3,2,#,#,2,#,#,3,2,#,#,2,1,0,#,#,0,#,#,#", 
+                "nodeNum": "0,1,3,7,#,#,#,4,#,#,2,5,8,#,#,9,#,#,6,10,#,#,11,12,13,#,#,14,#,#,#", 
+                "func": "Equality,Pow,sin,Symbol,#,#,#,Integer,#,#,Add,Pow,Integer,#,#,NegativeOne,#,#,Mul,Rational,#,#,cos,Add,Integer,#,#,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_0,#,#,#,2,#,#,,,2,#,#,-1,#,#,,2,#,#,,,2,#,#,var_0,#,#,#", 
+                "numNodes": "15", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,#,#,#,3,#,#,4,3,2,#,#,2,#,#,3,2,#,#,2,1,0,#,#,0,#,#,#", 
+                "nodeNum": "0,1,3,7,#,#,#,4,#,#,2,5,8,#,#,9,#,#,6,10,#,#,11,12,13,#,#,14,#,#,#", 
+                "func": "Equality,Pow,cos,Symbol,#,#,#,Integer,#,#,Add,Pow,Integer,#,#,NegativeOne,#,#,Mul,Integer,#,#,cos,Mul,Integer,#,#,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,,pi,#,#,,2,#,#,-1,#,#,,-1,#,#,var_0,#,#,#,,var_0,#,#,#", 
+                "numNodes": "13", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,1,#,#,1,0,#,#,0,#,#,2,1,#,#,1,#,#,#,4,3,#,#,#", 
+                "nodeNum": "0,1,3,5,7,#,#,8,11,#,#,12,#,#,6,9,#,#,10,#,#,#,2,4,#,#,#", 
+                "func": "Equality,tan,Mul,Mul,Pi,#,#,Pow,Integer,#,#,NegativeOne,#,#,Mul,NegativeOne,#,#,Symbol,#,#,#,cot,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,,pi,#,#,,2,#,#,-1,#,#,var_0,#,#,#,,var_0,#,#,#", 
+                "numNodes": "11", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,1,#,#,1,0,#,#,0,#,#,2,#,#,#,4,3,#,#,#", 
+                "nodeNum": "0,1,3,5,7,#,#,8,9,#,#,10,#,#,6,#,#,#,2,4,#,#,#", 
+                "func": "Equality,csc,Add,Mul,Pi,#,#,Pow,Integer,#,#,NegativeOne,#,#,Symbol,#,#,#,sec,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,,pi,#,#,,2,#,#,-1,#,#,,-1,#,#,var_0,#,#,#,var_0,#,#", 
+                "numNodes": "12", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,1,#,#,1,0,#,#,0,#,#,2,1,#,#,1,#,#,#,4,#,#", 
+                "nodeNum": "0,1,3,4,6,#,#,7,10,#,#,11,#,#,5,8,#,#,9,#,#,#,2,#,#", 
+                "func": "Equality,sec,Add,Mul,Pi,#,#,Pow,Integer,#,#,NegativeOne,#,#,Mul,NegativeOne,#,#,Symbol,#,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,,pi,#,#,,2,#,#,-1,#,#,,,-1,#,#,var_0,#,#,#,#,,var_0,#,#,#", 
+                "numNodes": "14", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,1,#,#,1,0,#,#,0,#,#,2,1,0,#,#,0,#,#,#,#,4,3,#,#,#", 
+                "nodeNum": "0,1,3,5,7,#,#,8,10,#,#,11,#,#,6,9,12,#,#,13,#,#,#,#,2,4,#,#,#", 
+                "func": "Equality,cot,Add,Mul,Pi,#,#,Pow,Integer,#,#,NegativeOne,#,#,asech,Mul,NegativeOne,#,#,Symbol,#,#,#,#,tan,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,pi,#,#,,,-1,#,#,var_0,#,#,2/5,#,#,#,,var_0,#,#,#", 
+                "numNodes": "11", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,#,#,2,1,0,#,#,0,#,#,1,#,#,#,4,3,#,#,#", 
+                "nodeNum": "0,1,3,5,#,#,6,7,9,#,#,10,#,#,8,#,#,#,2,4,#,#,#", 
+                "func": "Equality,csc,Add,Pi,#,#,Mul,Mul,NegativeOne,#,#,Symbol,#,#,Rational,#,#,#,csc,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,,pi,#,#,,-1,#,#,var_0,#,#,#,#,,-1,#,#,,var_0,#,#,#", 
+                "numNodes": "12", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,1,#,#,1,0,#,#,0,#,#,#,#,4,3,#,#,3,2,#,#,#", 
+                "nodeNum": "0,1,3,6,8,#,#,9,10,#,#,11,#,#,#,#,2,4,#,#,5,7,#,#,#", 
+                "func": "Equality,cot,asech,Add,Pi,#,#,Mul,NegativeOne,#,#,Symbol,#,#,#,#,Mul,NegativeOne,#,#,cot,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_0,#,#,,pi,#,#,,2,#,#,-1,#,#,#,,var_0,#,#,#", 
+                "numNodes": "11", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,#,#,2,1,#,#,1,0,#,#,0,#,#,#,4,3,#,#,#", 
+                "nodeNum": "0,1,3,5,#,#,6,7,#,#,8,9,#,#,10,#,#,#,2,4,#,#,#", 
+                "func": "Equality,tan,Add,Symbol,#,#,Mul,Pi,#,#,Pow,Integer,#,#,NegativeOne,#,#,#,cos,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_0,#,#,,pi,#,#,,2,#,#,pi,#,#,#,,-1,#,#,,var_0,#,#,#", 
+                "numNodes": "13", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,#,#,2,1,#,#,1,0,#,#,0,#,#,#,4,3,#,#,3,2,#,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,9,#,#,10,11,#,#,12,#,#,#,2,4,#,#,5,8,#,#,#", 
+                "func": "Equality,cos,Add,Symbol,#,#,Mul,Pi,#,#,Pow,Integer,#,#,Pi,#,#,#,Mul,NegativeOne,#,#,sin,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_0,#,#,,2/5,#,#,,2,#,#,-1,#,#,#,,-1,#,#,,var_0,#,#,#", 
+                "numNodes": "13", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,#,#,2,1,#,#,1,0,#,#,0,#,#,#,4,3,#,#,3,2,#,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,9,#,#,10,11,#,#,12,#,#,#,2,4,#,#,5,8,#,#,#", 
+                "func": "Equality,tan,Add,Symbol,#,#,Mul,Rational,#,#,Pow,Integer,#,#,NegativeOne,#,#,#,Mul,NegativeOne,#,#,cot,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_0,#,#,,pi,#,#,,2,#,#,-1,#,#,#,,var_0,#,#,#", 
+                "numNodes": "11", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,#,#,2,1,#,#,1,0,#,#,0,#,#,#,4,3,#,#,#", 
+                "nodeNum": "0,1,3,5,#,#,6,7,#,#,8,9,#,#,10,#,#,#,2,4,#,#,#", 
+                "func": "Equality,csc,Add,Symbol,#,#,Mul,Pi,#,#,Mul,Integer,#,#,NegativeOne,#,#,#,sec,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_0,#,#,,pi,#,#,,2,#,#,-1,#,#,#,,-1,#,#,,,var_0,#,#,#,#", 
+                "numNodes": "14", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,#,#,2,1,#,#,1,0,#,#,0,#,#,#,4,3,#,#,3,2,1,#,#,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,9,#,#,10,12,#,#,13,#,#,#,2,4,#,#,5,8,11,#,#,#,#", 
+                "func": "Equality,sec,Add,Symbol,#,#,Mul,Pi,#,#,Pow,Integer,#,#,NegativeOne,#,#,#,Mul,NegativeOne,#,#,csc,sin,Symbol,#,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,var_0,#,#,,2/5,#,#,,2,#,#,-1,#,#,#,,-1,#,#,,var_0,#,#,#", 
+                "numNodes": "13", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,#,#,2,1,#,#,1,0,#,#,0,#,#,#,4,3,#,#,3,2,#,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,9,#,#,10,11,#,#,12,#,#,#,2,4,#,#,5,8,#,#,#", 
+                "func": "Equality,cot,Add,Symbol,#,#,Mul,Rational,#,#,Pow,Integer,#,#,NegativeOne,#,#,#,Mul,NegativeOne,#,#,tan,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,,var_0,#,#,,2,#,#,pi,#,#,#,#,,var_0,#,#,#", 
+                "numNodes": "10", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,1,#,#,1,0,#,#,0,#,#,#,#,4,3,#,#,#", 
+                "nodeNum": "0,1,3,5,6,#,#,7,8,#,#,9,#,#,#,#,2,4,#,#,#", 
+                "func": "Equality,cot,sec,Add,Symbol,#,#,Mul,Integer,#,#,Pi,#,#,#,#,cot,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,3,#,#,var_0,#,#,#,,,-1,#,#,,4,#,#,,var_0,#,#,3,#,#,,3,#,#,,var_0,#,#,#", 
+                "numNodes": "17", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,#,#,2,#,#,#,4,3,2,#,#,2,1,#,#,1,0,#,#,0,#,#,3,2,#,#,2,1,#,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,8,#,#,9,12,#,#,13,15,#,#,16,#,#,5,10,#,#,11,14,#,#,#", 
+                "func": "Equality,sin,Mul,Integer,#,#,Symbol,#,#,#,Add,Mul,NegativeOne,#,#,Mul,Integer,#,#,Pow,Symbol,#,#,Integer,#,#,Mul,Integer,#,#,sin,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,3,#,#,var_0,#,#,#,,,4,#,#,,,var_0,#,#,#,-1,#,#,,-3,#,#,,var_0,#,#,#", 
+                "numNodes": "16", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "5,4,3,2,#,#,2,#,#,#,4,3,2,#,#,2,1,0,#,#,#,1,#,#,3,2,#,#,2,1,#,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,8,#,#,9,12,15,#,#,#,13,#,#,5,10,#,#,11,14,#,#,#", 
+                "func": "Equality,cos,Mul,Integer,#,#,Symbol,#,#,#,Add,Mul,Integer,#,#,Pow,cos,Symbol,#,#,#,NegativeOne,#,#,Mul,Integer,#,#,cos,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }
+    ], 
+    [
+        {
+            "equation": {
+                "vars": ",,,var_1,#,#,,-1,#,#,var_0,#,#,#,,,,var_1,#,#,#,,-1,#,#,,var_0,#,#,#,,,1,#,#,,,var_1,#,#,#,,var_0,#,#,#,-1,#,#", 
+                "numNodes": "24", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "6,5,4,3,#,#,3,2,#,#,2,#,#,#,5,4,3,2,#,#,#,3,2,#,#,2,1,#,#,#,4,3,2,#,#,2,1,0,#,#,#,1,0,#,#,#,3,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,12,#,#,13,#,#,#,2,4,8,14,#,#,#,9,15,#,#,16,19,#,#,#,5,10,17,#,#,18,20,22,#,#,#,21,23,#,#,#,11,#,#", 
+                "func": "Equality,tan,Add,Symbol,#,#,Mul,NegativeOne,#,#,Symbol,#,#,#,Mul,Add,tan,Symbol,#,#,#,Add,NegativeOne,#,#,tan,Symbol,#,#,#,Pow,Add,One,#,#,Mul,tan,Symbol,#,#,#,tan,Symbol,#,#,#,NegativeOne,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,2,#,#,var_1,#,#,#,,,1,#,#,,-1,#,#,,,var_0,#,#,#,2,#,#,,,1,#,#,,,var_1,#,#,#,2,#,#,-1,#,#", 
+                "numNodes": "22", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "6,5,4,3,#,#,3,#,#,#,5,4,3,#,#,3,2,#,#,2,1,0,#,#,#,1,#,#,4,3,2,#,#,2,1,0,#,#,#,1,#,#,3,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,8,#,#,9,12,#,#,13,16,20,#,#,#,17,#,#,5,10,14,#,#,15,18,21,#,#,#,19,#,#,11,#,#", 
+                "func": "Equality,cos,Mul,Integer,#,#,Symbol,#,#,#,Mul,Add,One,#,#,Mul,NegativeOne,#,#,Pow,tan,Symbol,#,#,#,Integer,#,#,Pow,Add,One,#,#,Pow,acosh,Symbol,#,#,#,Integer,#,#,NegativeOne,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,var_1,#,#,#,,,1,#,#,,-1,#,#,,,var_0,#,#,#,2,#,#,1/2,#,#", 
+                "numNodes": "13", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "6,5,4,#,#,#,5,4,3,#,#,3,2,#,#,2,1,0,#,#,#,1,#,#,4,#,#", 
+                "nodeNum": "0,1,3,#,#,#,2,4,6,#,#,7,8,#,#,9,10,12,#,#,#,11,#,#,5,#,#", 
+                "func": "Equality,sin,Symbol,#,#,#,Pow,Add,One,#,#,Mul,NegativeOne,#,#,Pow,cos,Symbol,#,#,#,Integer,#,#,Half,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,var_0,#,#,#,,,1,#,#,,-1,#,#,,,var_0,#,#,#,1/2,#,#,1/2,#,#", 
+                "numNodes": "13", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "6,5,4,#,#,#,5,4,3,#,#,3,2,#,#,2,1,0,#,#,#,1,#,#,4,#,#", 
+                "nodeNum": "0,1,3,#,#,#,2,4,6,#,#,7,8,#,#,9,10,12,#,#,#,11,#,#,5,#,#", 
+                "func": "Equality,cos,Symbol,#,#,#,Pow,Add,One,#,#,Mul,NegativeOne,#,#,Pow,sin,Symbol,#,#,#,Half,#,#,Half,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,,,pi,#,#,,2,#,#,-1,#,#,-1,#,#,,-1,#,#,var_0,#,#,#,,var_0,#,#,#", 
+                "numNodes": "15", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "6,5,4,3,2,1,#,#,1,0,#,#,0,#,#,2,#,#,3,2,#,#,2,#,#,#,5,4,#,#,#", 
+                "nodeNum": "0,1,3,5,7,11,#,#,12,13,#,#,14,#,#,8,#,#,6,9,#,#,10,#,#,#,2,4,#,#,#", 
+                "func": "Equality,sin,Add,Mul,Mul,Pi,#,#,Pow,Integer,#,#,NegativeOne,#,#,NegativeOne,#,#,Mul,NegativeOne,#,#,Symbol,#,#,#,cos,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,,pi,#,#,,2,#,#,,-1,#,#,#,,-1,#,#,var_0,#,#,#,,var_0,#,#,#", 
+                "numNodes": "14", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "6,5,4,3,2,#,#,2,1,#,#,1,0,#,#,#,3,2,#,#,2,#,#,#,5,4,#,#,#", 
+                "nodeNum": "0,1,3,5,7,#,#,8,11,#,#,12,13,#,#,#,6,9,#,#,10,#,#,#,2,4,#,#,#", 
+                "func": "Equality,cos,Add,Mul,Pi,#,#,Pow,Integer,#,#,tan,NegativeOne,#,#,#,Mul,NegativeOne,#,#,Symbol,#,#,#,sin,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,3,#,#,var_0,#,#,#,,,-1,#,#,,,var_1,#,#,#,3,#,#,,3,#,#,,,,var_0,#,#,#,2,#,#,,var_0,#,#,#", 
+                "numNodes": "21", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "6,5,4,3,#,#,3,#,#,#,5,4,3,#,#,3,2,1,#,#,#,2,#,#,4,3,#,#,3,2,1,0,#,#,#,1,#,#,2,1,#,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,8,#,#,9,12,16,#,#,#,13,#,#,5,10,#,#,11,14,17,20,#,#,#,18,#,#,15,19,#,#,#", 
+                "func": "Equality,sin,Mul,Integer,#,#,Symbol,#,#,#,Add,Mul,NegativeOne,#,#,Pow,sin,Symbol,#,#,#,Integer,#,#,Mul,Integer,#,#,Mul,Pow,cos,Symbol,#,#,#,Integer,#,#,sin,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,3,#,#,var_0,#,#,#,,,,var_0,#,#,#,3,#,#,,-3,#,#,,,,var_0,#,#,#,2,#,#,var_0,#,#", 
+                "numNodes": "18", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "6,5,4,3,#,#,3,#,#,#,5,4,3,2,#,#,#,3,#,#,4,3,#,#,3,2,1,0,#,#,#,1,#,#,2,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,8,12,#,#,#,9,#,#,5,10,#,#,11,13,15,17,#,#,#,16,#,#,14,#,#", 
+                "func": "Equality,cos,Mul,Integer,#,#,Symbol,#,#,#,Add,Pow,cos,Symbol,#,#,#,Integer,#,#,Mul,Integer,#,#,Mul,Pow,sin,Symbol,#,#,#,Integer,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,3,#,#,var_0,#,#,#,,,-1,#,#,,4,#,#,,,var_0,#,#,#,-1,#,#,,3,#,#,,,var_0,#,#,#,-1,#,#", 
+                "numNodes": "20", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "6,5,4,3,#,#,3,#,#,#,5,4,3,#,#,3,2,#,#,2,1,0,#,#,#,1,#,#,4,3,#,#,3,2,1,#,#,#,2,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,8,#,#,9,12,#,#,13,16,19,#,#,#,17,#,#,5,10,#,#,11,14,18,#,#,#,15,#,#", 
+                "func": "Equality,sin,Mul,Integer,#,#,Symbol,#,#,#,Add,Mul,NegativeOne,#,#,Mul,Integer,#,#,Pow,sin,Symbol,#,#,#,NegativeOne,#,#,Mul,Integer,#,#,Pow,csc,Symbol,#,#,#,NegativeOne,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,,var_0,#,#,var_0,#,#,var_0,#,#,#,,,-1,#,#,,,var_0,#,#,#,0.7,#,#,,3,#,#,,,,var_0,#,#,#,2,#,#,,var_0,#,#,#", 
+                "numNodes": "23", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "6,5,4,3,2,#,#,2,#,#,3,#,#,#,5,4,3,#,#,3,2,1,#,#,#,2,#,#,4,3,#,#,3,2,1,0,#,#,#,1,#,#,2,1,#,#,#", 
+                "nodeNum": "0,1,3,6,12,#,#,13,#,#,7,#,#,#,2,4,8,#,#,9,14,18,#,#,#,15,#,#,5,10,#,#,11,16,19,22,#,#,#,20,#,#,17,21,#,#,#", 
+                "func": "Equality,sin,Add,Add,Symbol,#,#,Symbol,#,#,Symbol,#,#,#,Add,Mul,NegativeOne,#,#,Pow,sin,Symbol,#,#,#,Float,#,#,Mul,Integer,#,#,Mul,Pow,cos,Symbol,#,#,#,Integer,#,#,sin,Symbol,#,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,2,#,#,var_0,#,#,#,,1,#,#,,-2,#,#,,,,var_0,#,#,1,#,#,#,2,#,#", 
+                "numNodes": "15", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "6,5,4,3,#,#,3,#,#,#,5,4,#,#,4,3,#,#,3,2,1,0,#,#,0,#,#,#,2,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,#,#,5,8,#,#,9,10,12,13,#,#,14,#,#,#,11,#,#", 
+                "func": "Equality,cos,Mul,Integer,#,#,Symbol,#,#,#,Add,One,#,#,Pow,Integer,#,#,Pow,sin,Pow,Symbol,#,#,One,#,#,#,Integer,#,#"
+            }, 
+            "label": "0"
+        }
+    ], 
+    [
+        {
+            "equation": {
+                "vars": ",,,var_1,#,#,var_0,#,#,#,,,,var_1,#,#,#,,var_0,#,#,#,,,1,#,#,,-1,#,#,,,var_1,#,#,#,,var_0,#,#,#,-1,#,#", 
+                "numNodes": "22", 
+                "variables": {
+                    "var_1": 1, 
+                    "var_0": 0
+                }, 
+                "depth": "7,6,5,4,#,#,4,#,#,#,6,5,4,3,#,#,#,4,3,#,#,#,5,4,3,#,#,3,2,#,#,2,1,0,#,#,#,1,0,#,#,#,4,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,8,12,#,#,#,9,13,#,#,#,5,10,14,#,#,15,16,#,#,17,18,20,#,#,#,19,21,#,#,#,11,#,#", 
+                "func": "Equality,tan,Add,Symbol,#,#,Symbol,#,#,#,Mul,Add,cosh,Symbol,#,#,#,tan,Symbol,#,#,#,Pow,Add,One,#,#,Mul,NegativeOne,#,#,Mul,tan,Symbol,#,#,#,tan,Symbol,#,#,#,NegativeOne,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,0.7,#,#,var_0,#,#,#,,,2,#,#,,var_0,#,#,#,,,1,#,#,,-1,#,#,,,var_0,#,#,#,2,#,#,-1,#,#", 
+                "numNodes": "20", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "7,6,5,4,#,#,4,#,#,#,6,5,4,#,#,4,3,#,#,#,5,4,3,#,#,3,2,#,#,2,1,0,#,#,#,1,#,#,4,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,8,#,#,9,12,#,#,#,5,10,13,#,#,14,15,#,#,16,17,19,#,#,#,18,#,#,11,#,#", 
+                "func": "Equality,tan,Mul,Float,#,#,Symbol,#,#,#,Mul,Mul,Integer,#,#,tan,Symbol,#,#,#,Pow,Add,One,#,#,Mul,NegativeOne,#,#,Pow,tan,Symbol,#,#,#,Integer,#,#,NegativeOne,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,var_0,#,#,#,,-1,#,#,,,1,#,#,,-1,#,#,,,var_0,#,#,#,2,#,#,1/2,#,#", 
+                "numNodes": "15", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "7,6,5,#,#,#,6,5,#,#,5,4,3,#,#,3,2,#,#,2,1,0,#,#,#,1,#,#,4,#,#", 
+                "nodeNum": "0,1,3,#,#,#,2,4,#,#,5,6,8,#,#,9,10,#,#,11,12,14,#,#,#,13,#,#,7,#,#", 
+                "func": "Equality,sin,Symbol,#,#,#,Mul,NegativeOne,#,#,Pow,Add,One,#,#,Mul,NegativeOne,#,#,Mul,cos,Symbol,#,#,#,Integer,#,#,Half,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,var_0,#,#,#,,-1,#,#,,,1,#,#,,-1,#,#,,,var_0,#,#,#,2,#,#,2/5,#,#", 
+                "numNodes": "15", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "7,6,5,#,#,#,6,5,#,#,5,4,3,#,#,3,2,#,#,2,1,0,#,#,#,1,#,#,4,#,#", 
+                "nodeNum": "0,1,3,#,#,#,2,4,#,#,5,6,8,#,#,9,10,#,#,11,12,14,#,#,#,13,#,#,7,#,#", 
+                "func": "Equality,cos,Symbol,#,#,#,Mul,NegativeOne,#,#,Pow,Add,One,#,#,Mul,NegativeOne,#,#,Pow,sin,Symbol,#,#,#,Integer,#,#,Rational,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,3,#,#,var_0,#,#,#,,,,3,#,#,,var_0,#,#,#,,-1,#,#,,,var_0,#,#,#,3,#,#,,,1,#,#,,-3,#,#,,,var_0,#,#,#,2,#,#,-1,#,#", 
+                "numNodes": "27", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "7,6,5,4,#,#,4,#,#,#,6,5,4,3,#,#,3,2,#,#,#,4,3,#,#,3,2,1,#,#,#,2,#,#,5,4,3,#,#,3,2,#,#,2,1,0,#,#,#,1,#,#,4,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,8,12,#,#,13,18,#,#,#,9,14,#,#,15,19,23,#,#,#,20,#,#,5,10,16,#,#,17,21,#,#,22,24,26,#,#,#,25,#,#,11,#,#", 
+                "func": "Equality,tan,Mul,Integer,#,#,Symbol,#,#,#,Add,Add,Mul,Integer,#,#,tan,Symbol,#,#,#,Mul,NegativeOne,#,#,Pow,tan,Symbol,#,#,#,Integer,#,#,Pow,Add,One,#,#,Mul,Integer,#,#,Pow,tan,Symbol,#,#,#,Integer,#,#,NegativeOne,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,3,#,#,var_0,#,#,#,,,,3,#,#,,var_0,#,#,#,,-1,#,#,,,var_0,#,#,#,3,#,#,,,1,#,#,,-3,#,#,,,var_0,#,#,#,2,#,#,-1,#,#", 
+                "numNodes": "27", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "7,6,5,4,#,#,4,#,#,#,6,5,4,3,#,#,3,2,#,#,#,4,3,#,#,3,2,1,#,#,#,2,#,#,5,4,3,#,#,3,2,#,#,2,1,0,#,#,#,1,#,#,4,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,8,12,#,#,13,18,#,#,#,9,14,#,#,15,19,23,#,#,#,20,#,#,5,10,16,#,#,17,21,#,#,22,24,26,#,#,#,25,#,#,11,#,#", 
+                "func": "Equality,cot,Mul,Integer,#,#,Symbol,#,#,#,Mul,Add,Mul,Integer,#,#,cot,Symbol,#,#,#,Mul,NegativeOne,#,#,Pow,cot,Symbol,#,#,#,Integer,#,#,Pow,Mul,One,#,#,Mul,Integer,#,#,Pow,cot,Symbol,#,#,#,Integer,#,#,NegativeOne,#,#"
+            }, 
+            "label": "0"
+        }, 
+        {
+            "equation": {
+                "vars": ",,,3,#,#,var_0,#,#,#,,,,var_0,#,#,#,3,#,#,,-3,#,#,,,,,var_0,#,#,#,2,#,#,,,-1,#,#,var_0,#,#,#,var_0,#,#", 
+                "numNodes": "23", 
+                "variables": {
+                    "var_0": 0
+                }, 
+                "depth": "7,6,5,4,#,#,4,#,#,#,6,5,4,3,#,#,#,4,#,#,5,4,#,#,4,3,2,1,0,#,#,#,1,#,#,2,1,0,#,#,0,#,#,#,3,#,#", 
+                "nodeNum": "0,1,3,6,#,#,7,#,#,#,2,4,8,12,#,#,#,9,#,#,5,10,#,#,11,13,15,17,20,#,#,#,18,#,#,16,19,21,#,#,22,#,#,#,14,#,#", 
+                "func": "Equality,cos,Mul,Integer,#,#,Symbol,#,#,#,Add,Pow,cos,Symbol,#,#,#,Integer,#,#,Mul,Integer,#,#,Mul,Mul,Pow,sin,Symbol,#,#,#,Integer,#,#,cos,Mul,NegativeOne,#,#,Symbol,#,#,#,Symbol,#,#"
+            }, 
+            "label": "0"
+        }
+    ]
+]
