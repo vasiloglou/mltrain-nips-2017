@@ -8,7 +8,7 @@ from tensorflow.python.ops.math_ops import tanh
 from tensorflow.python.util import nest
 from tensorflow.contrib.distributions import Bernoulli
 from tensorflow.contrib.layers import fully_connected
-from tensorflow.python.ops.rnn_cell_impl import LSTMStateTuple
+from tensorflow.rnn_cell import LSTMStateTuple
 
 import numpy as np
 import copy
