@@ -9,7 +9,7 @@ from tensorflow.contrib.rnn import RNNCell
 from tensorflow.python.util import nest
 from tensorflow.contrib.distributions import Bernoulli
 from tensorflow.contrib.layers import fully_connected
-from tensorflow.nn.rnn_cell import LSTMStateTuple
+
 
 import numpy as np
 import copy
@@ -29,7 +29,7 @@ class TensorLSTMCell(RNNCell):
         
     @property
     def state_size(self):
-        return (LSTMStateTuple(self._num_units, self._num_units)
+        return (tf.nn.rnn_cell.LSTMStateTuple(self._num_units, self._num_units)
                 if self._state_is_tuple else 2 * self._num_units)
     
     @property
@@ -62,7 +62,7 @@ class TensorLSTMCell(RNNCell):
         new_h = self._activation(new_c) * sigmoid(o)
 
         if self._state_is_tuple:
-            new_state = LSTMStateTuple(new_c, new_h)
+            new_state = tf.nn.rnn_cell.LSTMStateTuple(new_c, new_h)
         else:
             new_state = array_ops.concat([new_c, new_h], 1)
         return new_h, new_state
